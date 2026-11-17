@@ -1,0 +1,16 @@
+# Chummer5a raw data & exports (do not commit / duplicate)
+data/
+*.xml
+*.csv
+
+# OS metadata
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
