@@ -1,5 +1,7 @@
 # Chummer5a raw data & exports (do not commit / duplicate)
-data/
+data/*
+!data/life_modules/
+!data/life_modules/*.json
 *.xml
 *.csv
 

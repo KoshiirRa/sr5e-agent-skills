@@ -1,0 +1,1225 @@
+{
+  "stage": "Formative Years",
+  "source": {
+    "spreadsheet_id": "13UgaTbc9v4UhHchyVwfzsuSbW3JrNFN-SxtgSoG3-44",
+    "tab": "Formative Years"
+  },
+  "selection_rules": {
+    "mode": "single",
+    "max_selections": 1,
+    "description": "Players are limited to a single Formative Years module."
+  },
+  "placeholder_convention": "Knowledge skills with is_placeholder=true (enclosed in [brackets]) are placeholders; during character creation, the player chooses a specific knowledge skill or language matching that description.",
+  "count": 38,
+  "modules": [
+    {
+      "name": "Anarchist Brat",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1
+      },
+      "qualities": {
+        "positive_total": 9,
+        "positive": [
+          "Toughness"
+        ],
+        "negative_total": 15,
+        "negative": [
+          "Uneducated",
+          "Prejudiced (Corporate Citizen)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Unarmed": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Running": 1,
+        "Survival": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Anarchy",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Arcology Living",
+      "cost": 40,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {
+        "Electronics": 2
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Corporation]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Corporation"
+        }
+      ]
+    },
+    {
+      "name": "Bag of Organs",
+      "cost": 40,
+      "note": "You may pick 32,000 nuyen worth of bioware. Normal Essence costs apply.",
+      "attributes": {
+        "BOD": 2
+      },
+      "qualities": {
+        "negative_total": 15,
+        "negative": [
+          "Flashbacks",
+          "Uneducated"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Sneaking": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Biology",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Bioware",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Organleggers",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Bootstrap Cliche",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 4,
+        "positive": [
+          "Deck Builder"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Sneaking": 1,
+        "Hardware": 1,
+        "Locksmith": 1,
+        "Software": 1
+      },
+      "skill_specializations": {
+        "Software": "Specialization: Data Bombs"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Sprawl Life]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Sprawl Life"
+        },
+        {
+          "name": "[Public Grid]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Public Grid"
+        }
+      ]
+    },
+    {
+      "name": "Brothel Child",
+      "cost": 40,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Escape Artist": 1,
+        "Sneaking": 3,
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Syndicate]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Syndicate"
+        }
+      ]
+    },
+    {
+      "name": "Child of the Shadows",
+      "cost": 40,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Stealth": 2
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Con": 1,
+        "Computer": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Safehouses",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Con Prop",
+      "cost": 40,
+      "attributes": {
+        "CHA": 2
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Palming": 2,
+        "Running": 1,
+        "Etiquette": 1,
+        "Performance": 2,
+        "Animal Handling": 2
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "Corp Drone",
+      "cost": 40,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Electronics": 2
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Corporation]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Corporation"
+        }
+      ]
+    },
+    {
+      "name": "Corp Kid",
+      "cost": 40,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 8,
+        "positive": [
+          "Common Sense",
+          "Perceptive"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Sneaking": 1,
+        "Con": 1,
+        "Etiquette": 1,
+        "Negotiation": 1
+      },
+      "skill_specializations": {
+        "Etiquette": "Specialization: Corporate"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "Corporate Politics",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Corp Silver Spooner",
+      "cost": 40,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 12,
+        "positive": [
+          "Born Rich",
+          "Privileged Family Name"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Intimidation": 1,
+        "Leadership": 1,
+        "Negotiation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Corporation]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Corporation"
+        },
+        {
+          "name": "[Academic]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        }
+      ]
+    },
+    {
+      "name": "Desert Nomad",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1
+      },
+      "qualities": {
+        "positive_total": 6,
+        "positive": [
+          "Outdoorsman",
+          "Sense of Direction"
+        ]
+      },
+      "skill_groups": {
+        "Outdoors": 1
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Tracking": 1,
+        "Animal Handling": 1
+      },
+      "skill_specializations": {
+        "Tracking": "Specialization: Desert"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Geography",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Devout",
+      "cost": 40,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 15,
+        "positive": [
+          "Trustworthy"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Performance": 1,
+        "Artisan": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Religious Text]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Religious Text"
+        }
+      ]
+    },
+    {
+      "name": "Dock Rat",
+      "cost": 40,
+      "attributes": {
+        "STR": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 5,
+        "positive": [
+          "Barrens Rat"
+        ],
+        "negative_total": 8,
+        "negative": [
+          "Phobia Crowds"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 1,
+        "Palming": 1,
+        "Running": 1,
+        "Survival": 1,
+        "Swimming": 2,
+        "Con": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Shipping Corps",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Early Emergence",
+      "cost": 40,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Software": 1,
+        "Compiling": 1,
+        "Decompiling": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix-related]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix-related"
+        },
+        {
+          "name": "[Technical]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Technical"
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Technomancer"
+        ]
+      }
+    },
+    {
+      "name": "Farm Living",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "positive_total": 9,
+        "positive": [
+          "Toughness"
+        ],
+        "negative_total": 8,
+        "negative": [
+          "Uneducated"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Industrial Mech": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Farming",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Fugitive",
+      "cost": 40,
+      "attributes": {
+        "REA": 1,
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        },
+        "negative_total": 14,
+        "negative": [
+          "Paranoia",
+          "Bad Rep"
+        ]
+      },
+      "skill_groups": {
+        "Acting": 2
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Sneaking": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        }
+      ]
+    },
+    {
+      "name": "Hacking Savant",
+      "cost": 40,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 2,
+        "Hacking": 1,
+        "Hardware": 2,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix-related]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix-related"
+        },
+        {
+          "name": "[Grid]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Grid"
+        }
+      ]
+    },
+    {
+      "name": "Have You Heard the Good Word",
+      "cost": 40,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 9,
+        "positive": [
+          "Silence is Golden"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Con": 1,
+        "Computer": 1,
+        "Hardware": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Hobby]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Hobby"
+        },
+        {
+          "name": "[Religion]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Religion"
+        }
+      ]
+    },
+    {
+      "name": "Isolated Rural Upbringing",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "positive_total": 9,
+        "positive": [
+          "Toughness"
+        ],
+        "negative_total": 22,
+        "negative": [
+          "Uncouth",
+          "Uneducated"
+        ]
+      },
+      "skill_groups": {
+        "Outdoors": 2
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Running": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Farming",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Life on the Coast",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "positive_total": 9,
+        "positive": [
+          "Toughness"
+        ],
+        "negative_total": 8,
+        "negative": [
+          "Uneducated"
+        ]
+      },
+      "skill_groups": {
+        "Outdoors": 1
+      },
+      "active_skills": {
+        "Swimming": 1,
+        "Pilot Water Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Fishing",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Life by the Toxic Sea",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 14,
+        "positive": [
+          "Perceptive",
+          "Toughness"
+        ],
+        "negative_total": 23,
+        "negative": [
+          "Uneducated",
+          "Blighted"
+        ]
+      },
+      "skill_groups": {
+        "Close Combat": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Perception": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        }
+      ]
+    },
+    {
+      "name": "Merc Kid",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "CHA": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Common Sense"
+        ],
+        "negative_total": 5,
+        "negative": [
+          "Attention Seeking"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Unarmed": 1,
+        "Palming": 1,
+        "Running": 1,
+        "Sneaking": 1,
+        "Swimming": 1,
+        "Con": 1,
+        "Negotiation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Mercenary Units",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Migratory Background",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 5,
+        "positive": [
+          "Bilingual"
+        ],
+        "negative_total": 2,
+        "negative": [
+          "Driven"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Unarmed": 1,
+        "Perception": 1,
+        "Running": 1,
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        }
+      ]
+    },
+    {
+      "name": "Military Brat",
+      "cost": 40,
+      "attributes": {
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "negative_total": 14,
+        "negative": [
+          "Uncouth"
+        ]
+      },
+      "skill_groups": {
+        "Close Combat": 2
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Negotiation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Minor Wheelman",
+      "cost": 40,
+      "attributes": {
+        "REA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 7,
+        "positive": [
+          "Speed Demon",
+          "Stunt Driver"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Automotive Mech": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Vehicle Models",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Vehicle Stunts",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Orphan",
+      "cost": 40,
+      "attributes": {
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 2,
+        "Sneaking": 2,
+        "Survival": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Foster System",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Part of the Machine",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1,
+        "Hardware": 1,
+        "Software": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Technical]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Technical"
+        },
+        {
+          "name": "[Hobby]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Hobby"
+        }
+      ]
+    },
+    {
+      "name": "Pastor's Kid",
+      "cost": 40,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 11,
+        "positive": [
+          "First Impression"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Con": 1,
+        "Etiquette": 2,
+        "Performance": 1,
+        "Artisan": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Religion]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Religion"
+        }
+      ]
+    },
+    {
+      "name": "Poor Kid",
+      "cost": 40,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 10,
+        "positive": [
+          "Home Ground (You Know a Guy)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Unarmed": 1,
+        "Perception": 1,
+        "Survival": 1,
+        "Con": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Food Banks",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Raised by Hooders",
+      "cost": 40,
+      "attributes": {
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 6,
+        "positive": [
+          "Cynic"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Escape Artist": 1,
+        "Perception": 2,
+        "Sneaking": 1,
+        "Running": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "Religious Upbringing",
+      "cost": 40,
+      "attributes": {
+        "WIL": 2
+      },
+      "qualities": {
+        "negative_total": 5,
+        "negative": [
+          "Prejudiced Other Religions"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Artisan": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Religion]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Religion"
+        },
+        {
+          "name": "Prayers/Meditation",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Rich Kid",
+      "cost": 40,
+      "attributes": {
+        "CHA": 1
+      },
+      "qualities": {
+        "positive_total": 10,
+        "positive": [
+          "Trust Fund"
+        ],
+        "negative_total": 7,
+        "negative": [
+          "Prjudiced Poor"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Leadership": 2,
+        "Artisan": 1,
+        "Computer": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Interest]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Interest"
+        }
+      ]
+    },
+    {
+      "name": "Shop Kid",
+      "cost": 40,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 0,
+        "positive": [
+          "Grease Monkey"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Automotive Mech": 2,
+        "Industrial Mech": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Vehicle Models",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Vehicle Parts",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Slave",
+      "cost": 40,
+      "attributes": {
+        "AGI": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 8,
+        "positive": [
+          "Blandness"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Unarmed": 1,
+        "Perception": 1,
+        "Running": 1,
+        "Sneaking": 1,
+        "Etiquette": 1
+      },
+      "skill_specializations": {
+        "Con": "Fast Talking"
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "Street Urchin",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 9,
+        "positive": [
+          "Toughness"
+        ],
+        "negative_total": 22,
+        "negative": [
+          "Paranoia",
+          "Flashbacks",
+          "Uneducated"
+        ]
+      },
+      "skill_groups": {
+        "Close Combat": 2
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Sneaking": 1,
+        "Running": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        }
+      ]
+    },
+    {
+      "name": "The Itsy Bitsy Spider",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Cybercombat": 1,
+        "Electronic Warfare": 1,
+        "Hacking": 1,
+        "Software": 1
+      },
+      "skill_specializations": {
+        "Cybercombat": "Specialization: Personas",
+        "Electronic Warfare": "Specialization: Communications"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Technical]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Technical"
+        },
+        {
+          "name": "Matrix Security",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Tribal",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "CHA": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Favored (Tribe)"
+        ]
+      },
+      "skill_groups": {
+        "Outdoors": 2
+      },
+      "active_skills": {
+        "Throwing": 1,
+        "Perception": 1,
+        "Running": 1,
+        "Survival": 1
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "White Collar",
+      "cost": 40,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Negotiation": 1
+      },
+      "skill_specializations": {
+        "Etiquette": "Professional Specialization"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Interest]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Interest"
+        }
+      ]
+    }
+  ]
+}

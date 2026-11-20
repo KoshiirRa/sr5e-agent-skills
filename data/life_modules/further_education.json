@@ -1,0 +1,3174 @@
+{
+  "stage": "Further Education",
+  "source": {
+    "spreadsheet_id": "13UgaTbc9v4UhHchyVwfzsuSbW3JrNFN-SxtgSoG3-44",
+    "tab": "Further Education"
+  },
+  "selection_rules": {
+    "mode": "conditional_multi",
+    "base_max_selections": 1,
+    "description": "Limited to a single choice, with two exceptions: (1) You can take a Community College or Trade School module and then take a State University or Ivy League module. (2) One Student Athlete module can be added to any selection or selections of Further Education modules.",
+    "exceptions": [
+      {
+        "type": "two_stage_upgrade",
+        "prerequisite_categories": [
+          "CommunityCollege",
+          "TradeTechnicalSchool",
+          "Trade School Shop"
+        ],
+        "followup_categories": [
+          "StateUniversity",
+          "IvyLeague"
+        ]
+      },
+      {
+        "type": "addon",
+        "category": "StudentAthlete",
+        "max_count": 1,
+        "stackable_with_any": true
+      }
+    ]
+  },
+  "placeholder_convention": "Knowledge skills with is_placeholder=true (enclosed in [brackets]) are placeholders; during character creation, the player chooses a specific knowledge skill or language matching that description.",
+  "count": 88,
+  "modules": [
+    {
+      "name": "CommunityCollege Architecture",
+      "category": "CommunityCollege",
+      "vocation": "Architecture",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "First Aid": 1,
+        "Industrial Mech": 1
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: Drawing"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Buildings",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Business",
+      "category": "CommunityCollege",
+      "vocation": "Business",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Con": 1,
+        "Etiquette": 1,
+        "Negotiation": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Economics",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Computer Science",
+      "category": "CommunityCollege",
+      "vocation": "Computer Science",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Electronics": 1
+      },
+      "active_skills": {
+        "Cybercombat": 1,
+        "Hacking": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Matrix Design",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Engineering",
+      "category": "CommunityCollege",
+      "vocation": "Engineering",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Chemistry": 1,
+        "Hardware": 1,
+        "Industrial Mech": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Engineering",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Law",
+      "category": "CommunityCollege",
+      "vocation": "Law",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Negotiation": 2,
+        "Performance": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Law",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Magic",
+      "category": "CommunityCollege",
+      "vocation": "Magic",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Sorcery": 1
+      },
+      "active_skills": {},
+      "knowledge_skills": [
+        {
+          "name": "Magical Theory or\nMetaplanes",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician",
+          "Adept"
+        ]
+      }
+    },
+    {
+      "name": "CommunityCollege Mathematics",
+      "category": "CommunityCollege",
+      "vocation": "Mathematics",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 1,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Mathematics",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Medicine",
+      "category": "CommunityCollege",
+      "vocation": "Medicine",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Biotechnology": 2
+      },
+      "active_skills": {
+        "Chemistry": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Medicine",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Natural Sciences",
+      "category": "CommunityCollege",
+      "vocation": "Natural Sciences",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1,
+        "First Aid": 1,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Chemistry, Physics or Biology",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Art",
+      "category": "CommunityCollege",
+      "vocation": "Art",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Artisan": 3
+      },
+      "knowledge_skills": [
+        {
+          "name": "Art History",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege History",
+      "category": "CommunityCollege",
+      "vocation": "History",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[History]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Languages",
+      "category": "CommunityCollege",
+      "vocation": "Languages",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Negotiation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 6,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Language 2]",
+          "ranks": 5,
+          "is_placeholder": true,
+          "placeholder_description": "Language 2"
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Literature",
+      "category": "CommunityCollege",
+      "vocation": "Literature",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: Writing"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Literature",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Metahumanities",
+      "category": "CommunityCollege",
+      "vocation": "Metahumanities",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Ancient Language, Philosophy or Religion]",
+          "ranks": 13,
+          "is_placeholder": true,
+          "placeholder_description": "Ancient Language, Philosophy or Religion"
+        }
+      ]
+    },
+    {
+      "name": "CommunityCollege Social Sciences",
+      "category": "CommunityCollege",
+      "vocation": "Social Sciences",
+      "cost": 55,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Archaeology, \nCriminology, Politics, \nPsychology, or Sociology",
+          "ranks": 13,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Corp College Student",
+      "category": "Corp College Student",
+      "vocation": null,
+      "cost": 55,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 12,
+        "positive": [
+          "College Education or Technical School Education",
+          "Common Sense",
+          "Perceptive"
+        ],
+        "negative_total": 5,
+        "negative": [
+          "Day Job"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Instruction": 1,
+        "Performance": 1,
+        "First Aid": 1
+      },
+      "skill_specializations": {
+        "Etiquette": "Specialization: Academic"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Academic or Professional]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic or Professional"
+        }
+      ]
+    },
+    {
+      "name": "CraftApprenticeship Creative",
+      "category": "CraftApprenticeship",
+      "vocation": "Creative",
+      "cost": 55,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Artisan": 2,
+        "Forgery": 1
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: [Profession]"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Profession]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Profession"
+        }
+      ]
+    },
+    {
+      "name": "CraftApprenticeship Practical",
+      "category": "CraftApprenticeship",
+      "vocation": "Practical",
+      "cost": 55,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Artisan": 2,
+        "First Aid": 1
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: [Profession]"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Profession]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Profession"
+        }
+      ]
+    },
+    {
+      "name": "CraftApprenticeship Industrial",
+      "category": "CraftApprenticeship",
+      "vocation": "Industrial",
+      "cost": 55,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Hardware": 1,
+        "Industrial Mech": 2
+      },
+      "skill_specializations": {
+        "Industrial Mech": "Specialization: [Profession]"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Profession]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Profession"
+        }
+      ]
+    },
+    {
+      "name": "CraftApprenticeship Automotive Engineering",
+      "category": "CraftApprenticeship",
+      "vocation": "Automotive Engineering",
+      "cost": 55,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Automotive Mech": 3,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Profession]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Profession"
+        }
+      ]
+    },
+    {
+      "name": "CraftApprenticeship Aeronautical Engineering",
+      "category": "CraftApprenticeship",
+      "vocation": "Aeronautical Engineering",
+      "cost": 55,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Aeronautic Mech": 3,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Profession]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Profession"
+        }
+      ]
+    },
+    {
+      "name": "CraftApprenticeship Nautical Engineering",
+      "category": "CraftApprenticeship",
+      "vocation": "Nautical Engineering",
+      "cost": 55,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1,
+        "Nautical Mech": 3
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Profession]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Profession"
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Architecture",
+      "category": "IvyLeague",
+      "vocation": "Architecture",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Industrial Mech": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Buildings",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Business",
+      "category": "IvyLeague",
+      "vocation": "Business",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 2,
+        "Negotiation": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Economics",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Computer Science",
+      "category": "IvyLeague",
+      "vocation": "Computer Science",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Electronics": 1
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Matrix Design",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Engineering",
+      "category": "IvyLeague",
+      "vocation": "Engineering",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Chemistry": 1,
+        "Computer": 1,
+        "Industrial Mech": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Engineering",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Law",
+      "category": "IvyLeague",
+      "vocation": "Law",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Negotiation": 1,
+        "Performance": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Law",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Magic",
+      "category": "IvyLeague",
+      "vocation": "Magic",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Sorcery": 1
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Magical Theory or\nMetaplanes",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician",
+          "Adept"
+        ]
+      }
+    },
+    {
+      "name": "IvyLeague Mathematics",
+      "category": "IvyLeague",
+      "vocation": "Mathematics",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 2,
+        "Computer": 1,
+        "Software": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Mathematics",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Medicine",
+      "category": "IvyLeague",
+      "vocation": "Medicine",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Biotechnology": 1
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Medicine",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Natural Sciences",
+      "category": "IvyLeague",
+      "vocation": "Natural Sciences",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 2,
+        "Software": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Chemistry, Physics or Biology",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Art",
+      "category": "IvyLeague",
+      "vocation": "Art",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Artisan": 2,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Art History",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague History",
+      "category": "IvyLeague",
+      "vocation": "History",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 2,
+        "Software": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[History]",
+          "ranks": 6,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Languages",
+      "category": "IvyLeague",
+      "vocation": "Languages",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 2,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "[Language 2]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language 2"
+        },
+        {
+          "name": "[Language 3]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language 3"
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Literature",
+      "category": "IvyLeague",
+      "vocation": "Literature",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Artisan": 1,
+        "Computer": 1
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: Writing"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Literature",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Metahumanities",
+      "category": "IvyLeague",
+      "vocation": "Metahumanities",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "[Ancient Language, Philosophy or Religion]",
+          "ranks": 10,
+          "is_placeholder": true,
+          "placeholder_description": "Ancient Language, Philosophy or Religion"
+        }
+      ]
+    },
+    {
+      "name": "IvyLeague Social Sciences",
+      "category": "IvyLeague",
+      "vocation": "Social Sciences",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Archaeology, \nCriminology, Politics, \nPsychology, or Sociology",
+          "ranks": 10,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "MilitaryAcademy Architecture",
+      "category": "MilitaryAcademy",
+      "vocation": "Architecture",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "First Aid": 2,
+        "Industrial Mech": 1,
+        "Navigation": 1
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: Drawing"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Buildings",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Business",
+      "category": "MilitaryAcademy",
+      "vocation": "Business",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Con": 1,
+        "Etiquette": 1,
+        "Leadership": 1,
+        "Negotiation": 2,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Economics",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Computer Science",
+      "category": "MilitaryAcademy",
+      "vocation": "Computer Science",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Electronics": 1,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "Cybercombat": 1,
+        "First Aid": 1,
+        "Hacking": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Matrix Design",
+          "ranks": 6,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Engineering",
+      "category": "MilitaryAcademy",
+      "vocation": "Engineering",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "Chemistry": 1,
+        "First Aid": 1,
+        "Hardware": 1,
+        "Industrial Mech": 2,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Engineering",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Law",
+      "category": "MilitaryAcademy",
+      "vocation": "Law",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Etiquette": 1,
+        "Leadership": 1,
+        "Negotiation": 2,
+        "Performance": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Law",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Magic",
+      "category": "MilitaryAcademy",
+      "vocation": "Magic",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1,
+        "Sorcery": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Magical Theory or\nMetaplanes",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician",
+          "Adept"
+        ]
+      },
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Mathematics",
+      "category": "MilitaryAcademy",
+      "vocation": "Mathematics",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Etiquette": 1,
+        "Leadership": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Mathematics",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Medicine",
+      "category": "MilitaryAcademy",
+      "vocation": "Medicine",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Biotechnology": 2,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "Chemistry": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Medicine",
+          "ranks": 6,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Natural Sciences",
+      "category": "MilitaryAcademy",
+      "vocation": "Natural Sciences",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "Computer": 1,
+        "First Aid": 2,
+        "Navigation": 1,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Chemistry, Physics or Biology",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Art",
+      "category": "MilitaryAcademy",
+      "vocation": "Art",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "Artisan": 3,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Art History",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy History",
+      "category": "MilitaryAcademy",
+      "vocation": "History",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[History]",
+          "ranks": 5,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Languages",
+      "category": "MilitaryAcademy",
+      "vocation": "Languages",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Etiquette": 1,
+        "Leadership": 1,
+        "Negotiation": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 6,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Language 2]",
+          "ranks": 5,
+          "is_placeholder": true,
+          "placeholder_description": "Language 2"
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Literature",
+      "category": "MilitaryAcademy",
+      "vocation": "Literature",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "Artisan": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: Writing"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Literature",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Metahumanities",
+      "category": "MilitaryAcademy",
+      "vocation": "Metahumanities",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Ancient Language, Philosophy or Religion]",
+          "ranks": 13,
+          "is_placeholder": true,
+          "placeholder_description": "Ancient Language, Philosophy or Religion"
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "MilitaryAcademy Social Sciences",
+      "category": "MilitaryAcademy",
+      "vocation": "Social Sciences",
+      "cost": 115,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Archaeology, \nCriminology, Politics, \nPsychology, or Sociology",
+          "ranks": 13,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "post_requires": {
+        "real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)"
+        ],
+        "description": "After taking a Military Academy module, you must choose at least one Tour of Duty Real Life module."
+      }
+    },
+    {
+      "name": "ReligiousStudy Priestly Formation",
+      "category": "ReligiousStudy",
+      "vocation": "Priestly Formation",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Con": 2,
+        "Intimidation": 1,
+        "Negotiation": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Different Religion/Philosophy]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Different Religion/Philosophy"
+        },
+        {
+          "name": "[Different Religion/Philosophy 2]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Different Religion/Philosophy 2"
+        },
+        {
+          "name": "[Religion]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Religion"
+        },
+        {
+          "name": "[Religious Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Religious Language"
+        },
+        {
+          "name": "Magic Theory",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Prayers/Meditation",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "ReligiousStudy Monastery Residence",
+      "category": "ReligiousStudy",
+      "vocation": "Monastery Residence",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Instruction": 2,
+        "First Aid": 3,
+        "Medicine": 2,
+        "Arcana": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Religion]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Religion"
+        },
+        {
+          "name": "[Religious Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Religious Language"
+        },
+        {
+          "name": "Prayers/Meditation",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "ReligiousStudy Religious College",
+      "category": "ReligiousStudy",
+      "vocation": "Religious College",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Con": 1,
+        "Negotiation": 1,
+        "Arcana": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Different Religion/Philosophy]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Different Religion/Philosophy"
+        },
+        {
+          "name": "[Different Religion/Philosophy 2]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Different Religion/Philosophy 2"
+        },
+        {
+          "name": "[Religion]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Religion"
+        },
+        {
+          "name": "[Religious Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Religious Language"
+        },
+        {
+          "name": "Magic Theory",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Prayers/Meditation",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "ReligiousStudy Neo-Pagan Education",
+      "category": "ReligiousStudy",
+      "vocation": "Neo-Pagan Education",
+      "cost": 80,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "First Aid": 2,
+        "Medicine": 1,
+        "Arcana": 3
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Religion]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Religion"
+        },
+        {
+          "name": "[Religious Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Religious Language"
+        },
+        {
+          "name": "Magic Theory",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Prayers/Meditation",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Architecture",
+      "category": "StateUniversity",
+      "vocation": "Architecture",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Artisan": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Industrial Mech": 1
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: Drawing"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Buildings",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Business",
+      "category": "StateUniversity",
+      "vocation": "Business",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Con": 1,
+        "Etiquette": 2,
+        "Negotiation": 2,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Economics",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Computer Science",
+      "category": "StateUniversity",
+      "vocation": "Computer Science",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Electronics": 1
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 1,
+        "Cybertechnology": 1,
+        "Hacking": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Matrix Design",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Engineering",
+      "category": "StateUniversity",
+      "vocation": "Engineering",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Chemistry": 1,
+        "Computer": 1,
+        "Hardware": 1,
+        "Industrial Mech": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Engineering",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Law",
+      "category": "StateUniversity",
+      "vocation": "Law",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 2,
+        "Negotiation": 2,
+        "Performance": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Law",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Magic",
+      "category": "StateUniversity",
+      "vocation": "Magic",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Sorcery": 1
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Magical Theory or\nMetaplanes",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician",
+          "Adept"
+        ]
+      }
+    },
+    {
+      "name": "StateUniversity Mathematics",
+      "category": "StateUniversity",
+      "vocation": "Mathematics",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 2,
+        "Computer": 2,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Mathematics",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Medicine",
+      "category": "StateUniversity",
+      "vocation": "Medicine",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Biotechnology": 1
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Biotechnology": 1,
+        "Chemistry": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Medicine",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Natural Sciences",
+      "category": "StateUniversity",
+      "vocation": "Natural Sciences",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 2,
+        "First Aid": 1,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Chemistry, Physics or Biology",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Art",
+      "category": "StateUniversity",
+      "vocation": "Art",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Artisan": 3,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Art History",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity History",
+      "category": "StateUniversity",
+      "vocation": "History",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 2,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[History]",
+          "ranks": 5,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Languages",
+      "category": "StateUniversity",
+      "vocation": "Languages",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 2,
+        "Negotiation": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 6,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "[Language 2]",
+          "ranks": 5,
+          "is_placeholder": true,
+          "placeholder_description": "Language 2"
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Literature",
+      "category": "StateUniversity",
+      "vocation": "Literature",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Instruction": 1,
+        "Artisan": 1,
+        "Computer": 2
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: Writing"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Literature",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Metahumanities",
+      "category": "StateUniversity",
+      "vocation": "Metahumanities",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "[Ancient Language, Philosophy or Religion]",
+          "ranks": 13,
+          "is_placeholder": true,
+          "placeholder_description": "Ancient Language, Philosophy or Religion"
+        }
+      ]
+    },
+    {
+      "name": "StateUniversity Social Sciences",
+      "category": "StateUniversity",
+      "vocation": "Social Sciences",
+      "cost": 65,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "Archaeology, \nCriminology, Politics, \nPsychology, or Sociology",
+          "ranks": 13,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StudentAthlete E-Sports",
+      "category": "StudentAthlete",
+      "vocation": "E-Sports",
+      "cost": 55,
+      "attributes": {
+        "BOD": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 4,
+        "positive": [
+          "Fame (Local)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 2,
+        "Electronic Warfare": 2,
+        "Hardware": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        }
+      ]
+    },
+    {
+      "name": "StudentAthlete Vehicle/Drone Sports",
+      "category": "StudentAthlete",
+      "vocation": "Vehicle/Drone Sports",
+      "cost": 55,
+      "note": "Choose one: Pilot Aircraft, Pilot Exotic Vehicle, Pilot Ground Craft, Pilot Walker, or Pilot Watercraft +2.",
+      "attributes": {
+        "BOD": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 4,
+        "positive": [
+          "Fame (Local)"
+        ]
+      },
+      "skill_groups": {
+        "Engineering": 2
+      },
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        }
+      ],
+      "choices": [
+        {
+          "type": "pick_skills",
+          "count": 1,
+          "ranks": 2,
+          "options": [
+            "Pilot Aircraft",
+            "Pilot Exotic Vehicle",
+            "Pilot Ground Craft",
+            "Pilot Walker",
+            "Pilot Watercraft"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StudentAthlete Physical Sports",
+      "category": "StudentAthlete",
+      "vocation": "Physical Sports",
+      "cost": 55,
+      "attributes": {
+        "BOD": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 11,
+        "positive": [
+          "Fame (Local)",
+          "Natural Athlete"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 1
+      },
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        }
+      ]
+    },
+    {
+      "name": "Trade School Shop",
+      "category": "Trade School Shop",
+      "vocation": null,
+      "cost": 55,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 8,
+        "positive": [
+          "Grease Monkey"
+        ]
+      },
+      "skill_groups": {
+        "Engineering": 1
+      },
+      "active_skills": {},
+      "knowledge_skills": [
+        {
+          "name": "Industrial Manufacturers",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Machine Parts",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Practical Mechanics",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Architect",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Architect",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Industrial Mech": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Buildings",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Fashion Designer",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Fashion Designer",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Artisan": 1,
+        "Computer": 1
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: Fashion"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Fashion",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Graphic Designer",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Graphic Designer",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Artisan": 1,
+        "Computer": 1
+      },
+      "skill_specializations": {
+        "Artisan": "Specialization: Drawing"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Corporate Logos",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Journalist",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Journalist",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Con": 1,
+        "Etiquette": 1,
+        "Negotiation": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Politics",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Lawyer",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Lawyer",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Negotiation": 1,
+        "Performance": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Law",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Mechanic",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Mechanic",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Engineering": 1
+      },
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Computer": 1,
+        "First Aid": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Mechanics",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Media Studies",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Media Studies",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Negotiation": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Trid Shows",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Nurse",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Nurse",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Biotechnology": 1
+      },
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Medicine",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Tradesman",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Tradesman",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Automotive Mech": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Industrial Mech": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "DIY",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Divinity School/Seminary",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Divinity School/Seminary",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Negotiation": 1,
+        "Performance": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Ancient Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Ancient Language"
+        },
+        {
+          "name": "[Religion]",
+          "ranks": 5,
+          "is_placeholder": true,
+          "placeholder_description": "Religion"
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Divinity School Dropout",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Divinity School Dropout",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 6,
+        "positive": [
+          "Cynic"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Performance": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Ancient Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Ancient Language"
+        },
+        {
+          "name": "[Religion]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Religion"
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Couseling/Behavioral Therapy",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Couseling/Behavioral Therapy",
+      "cost": 40,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Negotiation": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Psychology",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TradeTechnicalSchool Montana Tech and Geomancy",
+      "category": "TradeTechnicalSchool",
+      "vocation": "Montana Tech and Geomancy",
+      "source": "Shadows in Focus: Butte",
+      "cost": 40,
+      "note": "Any Magic character taking this module can reduce Computer to +1 and gain Arcana +1.",
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 2,
+        "Perception": 1,
+        "Chemistry": 1,
+        "Demolitions": 1,
+        "Industrial Mech": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Geology",
+          "ranks": 3,
+          "is_placeholder": false,
+          "category": "Professional"
+        },
+        {
+          "name": "Parageology",
+          "ranks": 3,
+          "is_placeholder": false,
+          "category": "Professional"
+        },
+        {
+          "name": "Surveying",
+          "ranks": 1,
+          "is_placeholder": false,
+          "category": "Professional"
+        }
+      ],
+      "choices": [
+        {
+          "type": "optional_skill_swap",
+          "condition": "Magic character (Awakened)",
+          "reduce": {
+            "Computer": -1
+          },
+          "gain": {
+            "Arcana": 1
+          },
+          "description": "Any Magic character taking this module can reduce Computer to +1 and gain Arcana +1."
+        }
+      ]
+    }
+  ]
+}

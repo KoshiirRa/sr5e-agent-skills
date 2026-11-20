@@ -1,0 +1,627 @@
+{
+  "stage": "Metatypes",
+  "source": {
+    "spreadsheet_id": "13UgaTbc9v4UhHchyVwfzsuSbW3JrNFN-SxtgSoG3-44",
+    "tab": "Metatypes"
+  },
+  "selection_rules": {
+    "mode": "single",
+    "max_selections": 1,
+    "description": "Players are limited to a single Metatype/Metavariant choice."
+  },
+  "count": 36,
+  "metatypes": [
+    {
+      "name": "Human",
+      "metatype": "Human",
+      "metavariant": null,
+      "cost": 0,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 1,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 2
+      }
+    },
+    {
+      "name": "Human Nartaki",
+      "metatype": "Human",
+      "metavariant": "Nartaki",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 1,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Dwarf",
+      "metatype": "Dwarf",
+      "metavariant": null,
+      "cost": 50,
+      "attributes": {
+        "BOD": 3,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 1,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 2,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Dwarf Gnome",
+      "metatype": "Dwarf",
+      "metavariant": "Gnome",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 2,
+        "REA": 1,
+        "STR": 1,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 2,
+        "WIL": 2,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Dwarf Hanuman",
+      "metatype": "Dwarf",
+      "metavariant": "Hanuman",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 2,
+        "REA": 1,
+        "STR": 2,
+        "CHA": 1,
+        "INT": 2,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Dwarf Koborokuru",
+      "metatype": "Dwarf",
+      "metavariant": "Koborokuru",
+      "cost": 70,
+      "attributes": {
+        "BOD": 2,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 2,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 2,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Dwarf Menehune",
+      "metatype": "Dwarf",
+      "metavariant": "Menehune",
+      "cost": 50,
+      "attributes": {
+        "BOD": 2,
+        "AGI": 2,
+        "REA": 1,
+        "STR": 2,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Elf",
+      "metatype": "Elf",
+      "metavariant": null,
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 2,
+        "REA": 1,
+        "STR": 1,
+        "CHA": 3,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Elf Dryad",
+      "metatype": "Elf",
+      "metavariant": "Dryad",
+      "cost": 90,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 2,
+        "REA": 1,
+        "STR": 1,
+        "CHA": 3,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Elf Nocturna",
+      "metatype": "Elf",
+      "metavariant": "Nocturna",
+      "cost": 60,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 3,
+        "REA": 1,
+        "STR": 1,
+        "CHA": 2,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Elf Xapiri Thëpë",
+      "metatype": "Elf",
+      "metavariant": "Xapiri Thëpë",
+      "cost": 80,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 3,
+        "REA": 1,
+        "STR": 1,
+        "CHA": 2,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Elf Wakyambi",
+      "metatype": "Elf",
+      "metavariant": "Wakyambi",
+      "cost": 70,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 2,
+        "REA": 1,
+        "STR": 1,
+        "CHA": 1,
+        "INT": 2,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Ork",
+      "metatype": "Ork",
+      "metavariant": null,
+      "cost": 50,
+      "attributes": {
+        "BOD": 4,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 3,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 2,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Ork Hobgoblin",
+      "metatype": "Ork",
+      "metavariant": "Hobgoblin",
+      "cost": 40,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 2,
+        "CHA": 2,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Ork Ogre",
+      "metatype": "Ork",
+      "metavariant": "Ogre",
+      "cost": 40,
+      "attributes": {
+        "BOD": 4,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 3,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 2,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Ork Oni",
+      "metatype": "Ork",
+      "metavariant": "Oni",
+      "cost": 50,
+      "attributes": {
+        "BOD": 3,
+        "AGI": 2,
+        "REA": 1,
+        "STR": 2,
+        "CHA": 2,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Ork Satyr",
+      "metatype": "Ork",
+      "metavariant": "Satyr",
+      "cost": 50,
+      "attributes": {
+        "BOD": 2,
+        "AGI": 1,
+        "REA": 2,
+        "STR": 2,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Troll",
+      "metatype": "Troll",
+      "metavariant": null,
+      "cost": 90,
+      "attributes": {
+        "BOD": 5,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 5,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Troll Cyclopean",
+      "metatype": "Troll",
+      "metavariant": "Cyclopean",
+      "cost": 100,
+      "attributes": {
+        "BOD": 5,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 6,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Troll Fomorian",
+      "metatype": "Troll",
+      "metavariant": "Fomorian",
+      "cost": 100,
+      "attributes": {
+        "BOD": 4,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 5,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Troll Giant",
+      "metatype": "Troll",
+      "metavariant": "Giant",
+      "cost": 90,
+      "attributes": {
+        "BOD": 5,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 5,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Troll Minotaur",
+      "metatype": "Troll",
+      "metavariant": "Minotaur",
+      "cost": 100,
+      "attributes": {
+        "BOD": 6,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 5,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Centaur",
+      "metatype": "Centaur",
+      "metavariant": null,
+      "cost": 60,
+      "attributes": {
+        "BOD": 3,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 3,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Naga",
+      "metatype": "Naga",
+      "metavariant": null,
+      "cost": 95,
+      "attributes": {
+        "BOD": 3,
+        "AGI": 1,
+        "REA": 2,
+        "STR": 4,
+        "CHA": 2,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 2,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Pixie",
+      "metatype": "Pixie",
+      "metavariant": null,
+      "cost": 70,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 3,
+        "REA": 3,
+        "STR": 1,
+        "CHA": 3,
+        "INT": 2,
+        "LOG": 2,
+        "WIL": 3,
+        "EDGE": 2
+      }
+    },
+    {
+      "name": "Sasquatch",
+      "metatype": "Sasquatch",
+      "metavariant": null,
+      "cost": 90,
+      "attributes": {
+        "BOD": 6,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 5,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Shapeshifter Bovine",
+      "metatype": "Shapeshifter",
+      "metavariant": "Bovine",
+      "cost": 100,
+      "attributes": {
+        "BOD": 3,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 4,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Shapeshifter Canine",
+      "metatype": "Shapeshifter",
+      "metavariant": "Canine",
+      "cost": 110,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "REA": 2,
+        "STR": 1,
+        "CHA": 2,
+        "INT": 2,
+        "LOG": 1,
+        "WIL": 2,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Shapeshifter Equine",
+      "metatype": "Shapeshifter",
+      "metavariant": "Equine",
+      "cost": 120,
+      "attributes": {
+        "BOD": 4,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 5,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Shapeshifter Falconine",
+      "metatype": "Shapeshifter",
+      "metavariant": "Falconine",
+      "cost": 110,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 2,
+        "REA": 3,
+        "STR": 1,
+        "CHA": 2,
+        "INT": 2,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Shapeshifter Leonine",
+      "metatype": "Shapeshifter",
+      "metavariant": "Leonine",
+      "cost": 160,
+      "attributes": {
+        "BOD": 3,
+        "AGI": 1,
+        "REA": 2,
+        "STR": 4,
+        "CHA": 2,
+        "INT": 2,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Shapeshifter Lupine",
+      "metatype": "Shapeshifter",
+      "metavariant": "Lupine",
+      "cost": 120,
+      "attributes": {
+        "BOD": 3,
+        "AGI": 1,
+        "REA": 2,
+        "STR": 4,
+        "CHA": 2,
+        "INT": 2,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Shapeshifter Pantherine",
+      "metatype": "Shapeshifter",
+      "metavariant": "Pantherine",
+      "cost": 150,
+      "attributes": {
+        "BOD": 2,
+        "AGI": 2,
+        "REA": 2,
+        "STR": 1,
+        "CHA": 3,
+        "INT": 3,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Shapeshifter Tigrine",
+      "metatype": "Shapeshifter",
+      "metavariant": "Tigrine",
+      "cost": 150,
+      "attributes": {
+        "BOD": 3,
+        "AGI": 2,
+        "REA": 2,
+        "STR": 3,
+        "CHA": 2,
+        "INT": 3,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Shapeshifter Ursine",
+      "metatype": "Shapeshifter",
+      "metavariant": "Ursine",
+      "cost": 160,
+      "attributes": {
+        "BOD": 6,
+        "AGI": 1,
+        "REA": 1,
+        "STR": 7,
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    },
+    {
+      "name": "Shapeshifter Vulpine",
+      "metatype": "Shapeshifter",
+      "metavariant": "Vulpine",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 2,
+        "REA": 1,
+        "STR": 1,
+        "CHA": 2,
+        "INT": 2,
+        "LOG": 1,
+        "WIL": 1,
+        "EDGE": 1
+      }
+    }
+  ]
+}

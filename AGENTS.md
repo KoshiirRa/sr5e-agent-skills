@@ -14,6 +14,7 @@ All agents operating in this workspace must use these codified instructions, mat
 - **CLI Utilities**:
   - `python scripts/query_chummer.py <type> [search]`: General equipment & rules query tool.
   - `python scripts/query_tradition.py [search]`: Magical tradition & Forbidden Arcana lookup tool.
+  - `python scripts/life_modules.py <search|show|evaluate> ...`: Life Modules character creation search and build validator.
 
 ---
 
@@ -35,13 +36,15 @@ All agents operating in this workspace must use these codified instructions, mat
 ├── filtered_drones.csv                                      # Budget heavy-duty modern drones (Body >= 4, Mod Slots >= 4)
 ├── scripts/
 │   ├── query_chummer.py                                     # Convenience wrapper for Chummer5a XML querying
-│   └── query_tradition.py                                   # Convenience wrapper for Tradition querying
-├── data/                                                    # 43 raw Chummer5a XML data files
+│   ├── query_tradition.py                                   # Convenience wrapper for Tradition querying
+│   └── life_modules.py                                      # Convenience wrapper for Life Modules query & validator
+├── data/                                                    # 43 raw Chummer5a XML data files + Life Modules JSONs
+│   ├── life_modules/                                        # Dedicated Life Modules JSON datasets & rules
 │   ├── weapons.xml, vehicles.xml, gear.xml, armor.xml
 │   ├── cyberware.xml, bioware.xml, spells.xml, traditions.xml
 │   ├── priorities.xml, skills.xml, qualities.xml, critters.xml, etc.
 └── .agents/
-    └── skills/                                              # 13 modular, deep-dive rules skills
+    └── skills/                                              # 14 modular, deep-dive rules skills
         ├── sr5e-drone-customization/                        # Drone mod slots, upgrade costs & caps
         ├── sr5e-condition-monitors/                         # Condition monitors across all entity types
         ├── sr5e-data-query-and-extraction/                  # XML query utilities and filtering rules
@@ -54,7 +57,8 @@ All agents operating in this workspace must use these codified instructions, mat
         ├── sr5e-matrix-and-pan-defense/                     # PAN slaving, direct connection, marks, and noise
         ├── sr5e-explosives-and-chunky-salsa/                # Scatter, blast falloff, and chunky salsa reflections
         ├── sr5e-chargen-and-karma/                          # Priority chargen, Sum-to-Ten, and Karma progression
-        └── sr5e-combat-turn-and-actions/                    # Combat sequence, passes, and interrupt defense
+        ├── sr5e-combat-turn-and-actions/                    # Combat sequence, passes, and interrupt defense
+        └── sr5e-life-modules/                               # Life Modules chargen rules, datasets & build validator
 ```
 
 ---
@@ -104,3 +108,4 @@ All agents operating in this workspace must use these codified instructions, mat
 11. [**`sr5e-explosives-and-chunky-salsa`**](file:///.agents/skills/sr5e-explosives-and-chunky-salsa/SKILL.md): Grenade scatter, blast falloff, and confined-space shockwaves.
 12. [**`sr5e-chargen-and-karma`**](file:///.agents/skills/sr5e-chargen-and-karma/SKILL.md): Priority creation table, Sum-to-Ten, and Karma advancement costs.
 13. [**`sr5e-combat-turn-and-actions`**](file:///.agents/skills/sr5e-combat-turn-and-actions/SKILL.md): Combat Turn sequence, action economy, and defensive interrupt actions.
+14. [**`sr5e-life-modules`**](file:///.agents/skills/sr5e-life-modules/SKILL.md): Life Modules character creation rules, dedicated JSON datasets, and build validator CLI.

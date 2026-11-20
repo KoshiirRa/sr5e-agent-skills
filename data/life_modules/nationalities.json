@@ -1,0 +1,3245 @@
+{
+  "stage": "Nationalities",
+  "source": {
+    "spreadsheet_id": "13UgaTbc9v4UhHchyVwfzsuSbW3JrNFN-SxtgSoG3-44",
+    "tab": "Nationalities"
+  },
+  "selection_rules": {
+    "mode": "single",
+    "max_selections": 1,
+    "description": "Players are limited to a single Nationality module."
+  },
+  "placeholder_convention": "Knowledge skills with is_placeholder=true (enclosed in [brackets]) are placeholders; during character creation, the player chooses a specific knowledge skill or language matching that description.",
+  "count": 61,
+  "modules": [
+    {
+      "name": "UCAS General",
+      "nation": "UCAS",
+      "region": "General",
+      "cost": 15,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Italian",
+            "French",
+            "Mandarin",
+            "Polish",
+            "Yiddish"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "English"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Italian",
+        "French",
+        "Mandarin",
+        "Polish",
+        "Yiddish"
+      ]
+    },
+    {
+      "name": "UCAS Canada",
+      "nation": "UCAS",
+      "region": "Canada",
+      "cost": 15,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Survival": 1,
+        "Etiquette": 1,
+        "Computer": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Italian",
+            "French",
+            "Mandarin",
+            "Polish",
+            "Yiddish"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "English"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Italian",
+        "French",
+        "Mandarin",
+        "Polish",
+        "Yiddish"
+      ]
+    },
+    {
+      "name": "UCAS Denver",
+      "nation": "UCAS",
+      "region": "Denver",
+      "cost": 15,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Italian",
+            "French",
+            "Mandarin",
+            "Polish",
+            "Yiddish"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "English"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Italian",
+        "French",
+        "Mandarin",
+        "Polish",
+        "Yiddish"
+      ]
+    },
+    {
+      "name": "UCAS Seattle",
+      "nation": "UCAS",
+      "region": "Seattle",
+      "cost": 15,
+      "attributes": {
+        "REA": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Intimidation": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Italian",
+            "French",
+            "Mandarin",
+            "Polish",
+            "Yiddish"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "English"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Italian",
+        "French",
+        "Mandarin",
+        "Polish",
+        "Yiddish"
+      ]
+    },
+    {
+      "name": "UCAS SINless",
+      "nation": "UCAS",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {
+        "AGI": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Italian",
+            "French",
+            "Mandarin",
+            "Polish",
+            "Yiddish"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "English"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Italian",
+        "French",
+        "Mandarin",
+        "Polish",
+        "Yiddish"
+      ]
+    },
+    {
+      "name": "CAS General",
+      "nation": "CAS",
+      "region": "General",
+      "cost": 15,
+      "attributes": {
+        "CHA": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Italian",
+            "Polish",
+            "Yiddish"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "English"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Italian",
+        "Polish",
+        "Yiddish"
+      ]
+    },
+    {
+      "name": "CAS Denver",
+      "nation": "CAS",
+      "region": "Denver",
+      "cost": 15,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Italian",
+            "Polish",
+            "Yiddish"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "English"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Italian",
+        "Polish",
+        "Yiddish"
+      ]
+    },
+    {
+      "name": "CAS SINless",
+      "nation": "CAS",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Italian",
+            "Polish",
+            "Yiddish"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "English"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Italian",
+        "Polish",
+        "Yiddish"
+      ]
+    },
+    {
+      "name": "NAN Algonkian-Manitou Council",
+      "nation": "NAN",
+      "region": "Algonkian-Manitou Council",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Outdoors": 1
+      },
+      "active_skills": {
+        "Archery": 2,
+        "Blades": 1,
+        "Unarmed": 1,
+        "Perception": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Athabaskan",
+            "Anishinaabe",
+            "Iroquoian",
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "[Tribe]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Tribe"
+        }
+      ],
+      "primary_language_options": [
+        "Athabaskan",
+        "Anishinaabe",
+        "Iroquoian"
+      ],
+      "secondary_language_options": [
+        "Athabaskan",
+        "Anishinaabe",
+        "Iroquoian",
+        "English"
+      ]
+    },
+    {
+      "name": "NAN Athabaskan Council",
+      "nation": "NAN",
+      "region": "Athabaskan Council",
+      "cost": 15,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Archery": 2,
+        "Survival": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Athabaskan",
+            "Eskimo-Aleut",
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "Athabaskan",
+        "Eskimo-Aleut"
+      ],
+      "secondary_language_options": [
+        "Athabaskan",
+        "Eskimo-Aleut",
+        "English"
+      ]
+    },
+    {
+      "name": "NAN Pueblo Corporate Council",
+      "nation": "NAN",
+      "region": "Pueblo Corporate Council",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Electronics": 1
+      },
+      "active_skills": {
+        "Archery": 2,
+        "Etiquette": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Uto-Aztecan",
+            "Zuni",
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Buisness Practices",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "Uto-Aztecan",
+        "Zuni"
+      ],
+      "secondary_language_options": [
+        "Uto-Aztecan",
+        "Zuni",
+        "English"
+      ]
+    },
+    {
+      "name": "NAN Salish-Shidhe Council",
+      "nation": "NAN",
+      "region": "Salish-Shidhe Council",
+      "cost": 15,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Archery": 2,
+        "Survival": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Salish",
+            "Siouan",
+            "Or'zet",
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "Salish",
+        "Siouan",
+        "Or'zet"
+      ],
+      "secondary_language_options": [
+        "Salish",
+        "Siouan",
+        "Or'zet",
+        "English"
+      ]
+    },
+    {
+      "name": "NAN Sioux Nation",
+      "nation": "NAN",
+      "region": "Sioux Nation",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Outdoors": 1
+      },
+      "active_skills": {
+        "Archery": 2,
+        "Blades": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Anishinaabe",
+            "Athabaskan",
+            "Iroquoian",
+            "Siouan",
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Sioux Culture",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "Anishinaabe",
+        "Athabaskan",
+        "Iroquoian",
+        "Siouan"
+      ],
+      "secondary_language_options": [
+        "Anishinaabe",
+        "Athabaskan",
+        "Iroquoian",
+        "Siouan",
+        "English"
+      ]
+    },
+    {
+      "name": "NAN Sioux Nation Anglo Reservation",
+      "nation": "NAN",
+      "region": "Sioux Nation Anglo Reservation",
+      "source": "Shadows in Focus: Butte",
+      "cost": 15,
+      "primary_language_options": [
+        "English"
+      ],
+      "secondary_language_options": [
+        "Anishinaabe",
+        "Athabaskan",
+        "Iroquoian",
+        "Siouan"
+      ],
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Archery": 2,
+        "Blades": 2,
+        "Perception": 1,
+        "Sneaking": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Anishinaabe",
+            "Athabaskan",
+            "Iroquoian",
+            "Siouan"
+          ]
+        },
+        {
+          "name": "Sioux Streetspeak (ka-ne-tsv)",
+          "ranks": 1,
+          "is_placeholder": false,
+          "category": "Language"
+        },
+        {
+          "name": "History",
+          "ranks": 1,
+          "is_placeholder": false,
+          "category": "Academic"
+        },
+        {
+          "name": "NAN",
+          "ranks": 1,
+          "is_placeholder": false,
+          "category": "Academic"
+        },
+        {
+          "name": "Sioux Culture",
+          "ranks": 1,
+          "is_placeholder": false,
+          "category": "Street"
+        }
+      ]
+    },
+    {
+      "name": "NAN Trans-Polar Aleut Nation",
+      "nation": "NAN",
+      "region": "Trans-Polar Aleut Nation",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Archery": 2,
+        "Exotic Weapon": 2,
+        "Perception": 1,
+        "Survival": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Eskimo-Aleut",
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Polar Critters",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "Eskimo-Aleut",
+        "English"
+      ],
+      "secondary_language_options": [
+        "Eskimo-Aleut",
+        "English"
+      ]
+    },
+    {
+      "name": "NAN TN",
+      "nation": "NAN",
+      "region": "TN",
+      "cost": 15,
+      "attributes": {
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Archery": 2,
+        "Blades": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Athabaskan",
+            "Tlingit",
+            "Tsimshianic",
+            "Siouan",
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "Athabaskan",
+        "Tlingit",
+        "Tsimshianic",
+        "Siouan"
+      ],
+      "secondary_language_options": [
+        "Athabaskan",
+        "Tlingit",
+        "Tsimshianic",
+        "Siouan",
+        "English"
+      ]
+    },
+    {
+      "name": "NAN Denver",
+      "nation": "NAN",
+      "region": "Denver",
+      "cost": 15,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Archery": 2,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "[Other Language]"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "[Any Language]"
+      ],
+      "secondary_language_options": [
+        "[Other Language]"
+      ]
+    },
+    {
+      "name": "NAN Las Vegas",
+      "nation": "NAN",
+      "region": "Las Vegas",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Archery": 2,
+        "Perception": 1,
+        "Con": 2,
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "[Other Language]"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Gambling Games",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "[Any Language]"
+      ],
+      "secondary_language_options": [
+        "[Other Language]"
+      ]
+    },
+    {
+      "name": "NAN Salt Lake City",
+      "nation": "NAN",
+      "region": "Salt Lake City",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Archery": 2,
+        "Perception": 1,
+        "Negotiation": 1,
+        "Artisan": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "[Other Language]"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Mormons",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "[Any Language]"
+      ],
+      "secondary_language_options": [
+        "[Other Language]"
+      ]
+    },
+    {
+      "name": "NAN Ute Nation",
+      "nation": "NAN",
+      "region": "Ute Nation",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Archery": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Uto-Aztecan",
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "Uto-Aztecan"
+      ],
+      "secondary_language_options": [
+        "Uto-Aztecan",
+        "English"
+      ]
+    },
+    {
+      "name": "TírTairngire Elf/Human",
+      "nation": "TírTairngire",
+      "region": "Elf/Human",
+      "cost": 15,
+      "attributes": {
+        "CHA": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "Sperethiel"
+      ],
+      "secondary_language_options": [
+        "English"
+      ]
+    },
+    {
+      "name": "TírTairngire Ork/Troll/Dwarf",
+      "nation": "TírTairngire",
+      "region": "Ork/Troll/Dwarf",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Disguise": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Con": 2,
+        "Etiquette": 1,
+        "Intimidation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Counterculture",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "Sperethiel"
+      ],
+      "secondary_language_options": [
+        "English"
+      ]
+    },
+    {
+      "name": "CaribbeanLeague Greater Antilles",
+      "nation": "CaribbeanLeague",
+      "region": "Greater Antilles",
+      "cost": 15,
+      "attributes": {
+        "AGI": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Athletics": 1
+      },
+      "active_skills": {
+        "Swimming": 1,
+        "Etiquette": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Creole",
+            "Lucimi",
+            "Taino"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "French",
+        "Spanish",
+        "Dutch",
+        "English"
+      ],
+      "secondary_language_options": [
+        "Creole",
+        "Lucimi",
+        "Taino"
+      ]
+    },
+    {
+      "name": "CaribbeanLeague Lesser Antilles",
+      "nation": "CaribbeanLeague",
+      "region": "Lesser Antilles",
+      "cost": 15,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Diving": 1,
+        "Swimming": 1,
+        "Etiquette": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Creole",
+            "Lucimi",
+            "Taino"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "French",
+        "Spanish",
+        "Dutch",
+        "English"
+      ],
+      "secondary_language_options": [
+        "Creole",
+        "Lucimi",
+        "Taino"
+      ]
+    },
+    {
+      "name": "CaribbeanLeague Bahama Achipelago",
+      "nation": "CaribbeanLeague",
+      "region": "Bahama Achipelago",
+      "cost": 15,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Survival": 1,
+        "Swimming": 1,
+        "Etiquette": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Creole",
+            "Lucimi",
+            "Taino"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "French",
+        "Spanish",
+        "Dutch",
+        "English"
+      ],
+      "secondary_language_options": [
+        "Creole",
+        "Lucimi",
+        "Taino"
+      ]
+    },
+    {
+      "name": "CaribbeanLeague Miami",
+      "nation": "CaribbeanLeague",
+      "region": "Miami",
+      "cost": 15,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Tracking": 1,
+        "Etiquette": 2,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Creole",
+            "Lucimi",
+            "Taino"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "French",
+        "Spanish",
+        "Dutch",
+        "English"
+      ],
+      "secondary_language_options": [
+        "Creole",
+        "Lucimi",
+        "Taino"
+      ]
+    },
+    {
+      "name": "CaribbeanLeague SINless",
+      "nation": "CaribbeanLeague",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {
+        "AGI": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Creole",
+            "Lucimi",
+            "Taino"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "French",
+        "Spanish",
+        "Dutch",
+        "English"
+      ],
+      "secondary_language_options": [
+        "Creole",
+        "Lucimi",
+        "Taino"
+      ]
+    },
+    {
+      "name": "Amazonia Rio de Janeiro",
+      "nation": "Amazonia",
+      "region": "Rio de Janeiro",
+      "cost": 15,
+      "attributes": {
+        "CHA": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Swimming": 1,
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Japanese"
+          ]
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Football",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Paranormal Critters",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "Amazonian Portugese"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "name": "Amazonia Centro",
+      "nation": "Amazonia",
+      "region": "Centro",
+      "cost": 15,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Japanese"
+          ]
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Football",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Law",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Paranormal Critters",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "Amazonian Portugese"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "name": "Amazonia Sao Paulo",
+      "nation": "Amazonia",
+      "region": "Sao Paulo",
+      "cost": 15,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Negotiation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Japanese",
+            "[Any Language]"
+          ]
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Football",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Paranormal Critters",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "Amazonian Portugese"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Japanese",
+        "[Any Language]"
+      ]
+    },
+    {
+      "name": "Amazonia SINless",
+      "nation": "Amazonia",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {
+        "AGI": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {},
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Japanese"
+          ]
+        },
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Football",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Paranormal Critters",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "Amazonian Portugese"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "name": "Amazonia Tribal",
+      "nation": "Amazonia",
+      "region": "Tribal",
+      "cost": 15,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {
+        "negative_total": 8,
+        "negative": [
+          "Uneducated"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Archery": 1,
+        "Survival": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Spanish",
+            "German",
+            "Japanese"
+          ]
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Amazonian Rainforest",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Flora",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Football",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Paranormal Critters",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ],
+      "primary_language_options": [
+        "Amazonian Portugese"
+      ],
+      "secondary_language_options": [
+        "Spanish",
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "name": "Azania General",
+      "nation": "Azania",
+      "region": "General",
+      "cost": 15,
+      "attributes": {
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Survival": 1,
+        "Negotiation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Afrikaans",
+            "Bantu",
+            "English",
+            "German",
+            "IsiNdebele",
+            "IsiXhosa",
+            "IsiZulu",
+            "Sedepi",
+            "Sesotho",
+            "Setswana",
+            "SiSwati",
+            "Tshivenda",
+            "Xitsonga"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "Afrikaans",
+        "Bantu",
+        "English",
+        "German",
+        "IsiNdebele",
+        "IsiXhosa",
+        "IsiZulu",
+        "Sedepi",
+        "Sesotho",
+        "Setswana",
+        "SiSwati",
+        "Tshivenda",
+        "Xitsonga"
+      ],
+      "secondary_language_options": [
+        "Afrikaans",
+        "Bantu",
+        "English",
+        "German",
+        "IsiNdebele",
+        "IsiXhosa",
+        "IsiZulu",
+        "Sedepi",
+        "Sesotho",
+        "Setswana",
+        "SiSwati",
+        "Tshivenda",
+        "Xitsonga"
+      ]
+    },
+    {
+      "name": "Azania Pretoria",
+      "nation": "Azania",
+      "region": "Pretoria",
+      "cost": 15,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Afrikaans",
+            "Bantu",
+            "English",
+            "German",
+            "IsiNdebele",
+            "IsiXhosa",
+            "IsiZulu",
+            "Sedepi",
+            "Sesotho",
+            "Setswana",
+            "SiSwati",
+            "Tshivenda",
+            "Xitsonga"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "Afrikaans",
+        "Bantu",
+        "English",
+        "German",
+        "IsiNdebele",
+        "IsiXhosa",
+        "IsiZulu",
+        "Sedepi",
+        "Sesotho",
+        "Setswana",
+        "SiSwati",
+        "Tshivenda",
+        "Xitsonga"
+      ],
+      "secondary_language_options": [
+        "Afrikaans",
+        "Bantu",
+        "English",
+        "German",
+        "IsiNdebele",
+        "IsiXhosa",
+        "IsiZulu",
+        "Sedepi",
+        "Sesotho",
+        "Setswana",
+        "SiSwati",
+        "Tshivenda",
+        "Xitsonga"
+      ]
+    },
+    {
+      "name": "Azania SINless",
+      "nation": "Azania",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {
+        "REA": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {},
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Afrikaans",
+            "Bantu",
+            "English",
+            "German",
+            "IsiNdebele",
+            "IsiXhosa",
+            "IsiZulu",
+            "Sedepi",
+            "Sesotho",
+            "Setswana",
+            "SiSwati",
+            "Tshivenda",
+            "Xitsonga"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "Afrikaans",
+        "Bantu",
+        "English",
+        "German",
+        "IsiNdebele",
+        "IsiXhosa",
+        "IsiZulu",
+        "Sedepi",
+        "Sesotho",
+        "Setswana",
+        "SiSwati",
+        "Tshivenda",
+        "Xitsonga"
+      ],
+      "secondary_language_options": [
+        "Afrikaans",
+        "Bantu",
+        "English",
+        "German",
+        "IsiNdebele",
+        "IsiXhosa",
+        "IsiZulu",
+        "Sedepi",
+        "Sesotho",
+        "Setswana",
+        "SiSwati",
+        "Tshivenda",
+        "Xitsonga"
+      ]
+    },
+    {
+      "name": "Azania Zulu",
+      "nation": "Azania",
+      "region": "Zulu",
+      "cost": 15,
+      "attributes": {
+        "CHA": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Afrikaans",
+            "Bantu",
+            "English",
+            "German",
+            "IsiNdebele",
+            "IsiXhosa",
+            "IsiZulu",
+            "Sedepi",
+            "Sesotho",
+            "Setswana",
+            "SiSwati",
+            "Tshivenda",
+            "Xitsonga"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ],
+      "primary_language_options": [
+        "Afrikaans",
+        "Bantu",
+        "English",
+        "German",
+        "IsiNdebele",
+        "IsiXhosa",
+        "IsiZulu",
+        "Sedepi",
+        "Sesotho",
+        "Setswana",
+        "SiSwati",
+        "Tshivenda",
+        "Xitsonga"
+      ],
+      "secondary_language_options": [
+        "Afrikaans",
+        "Bantu",
+        "English",
+        "German",
+        "IsiNdebele",
+        "IsiXhosa",
+        "IsiZulu",
+        "Sedepi",
+        "Sesotho",
+        "Setswana",
+        "SiSwati",
+        "Tshivenda",
+        "Xitsonga"
+      ]
+    },
+    {
+      "name": "Aztlan General",
+      "nation": "Aztlan",
+      "region": "General",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {},
+      "knowledge_skills": []
+    },
+    {
+      "name": "Aztlan Denver",
+      "nation": "Aztlan",
+      "region": "Denver",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {},
+      "knowledge_skills": []
+    },
+    {
+      "name": "Aztlan Tenochtitlan",
+      "nation": "Aztlan",
+      "region": "Tenochtitlan",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {},
+      "knowledge_skills": []
+    },
+    {
+      "name": "Aztlan Yucatan",
+      "nation": "Aztlan",
+      "region": "Yucatan",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {},
+      "knowledge_skills": []
+    },
+    {
+      "name": "Aztlan SINless",
+      "nation": "Aztlan",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {},
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {},
+      "knowledge_skills": []
+    },
+    {
+      "name": "CFS General",
+      "nation": "CFS",
+      "region": "General",
+      "cost": 15,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Survival": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ]
+    },
+    {
+      "name": "CFS Los Angeles",
+      "nation": "CFS",
+      "region": "Los Angeles",
+      "cost": 15,
+      "attributes": {
+        "CHA": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Film",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "CFS Northern Crescent",
+      "nation": "CFS",
+      "region": "Northern Crescent",
+      "cost": 15,
+      "attributes": {
+        "AGI": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Survival": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ]
+    },
+    {
+      "name": "CFS San Francisco",
+      "nation": "CFS",
+      "region": "San Francisco",
+      "cost": 15,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Sneaking": 1,
+        "Computer": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ]
+    },
+    {
+      "name": "CFS SINless",
+      "nation": "CFS",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ]
+    },
+    {
+      "name": "AGS General",
+      "nation": "AGS",
+      "region": "General",
+      "cost": 15,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ]
+    },
+    {
+      "name": "AGS Frankfurt",
+      "nation": "AGS",
+      "region": "Frankfurt",
+      "cost": 15,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Con": 1,
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ]
+    },
+    {
+      "name": "AGS Hamburg",
+      "nation": "AGS",
+      "region": "Hamburg",
+      "cost": 15,
+      "attributes": {
+        "CHA": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Negotiation": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ]
+    },
+    {
+      "name": "AGS Rhine-Ruhr Megaplex",
+      "nation": "AGS",
+      "region": "Rhine-Ruhr Megaplex",
+      "cost": 15,
+      "attributes": {
+        "REA": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Intimidation": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ]
+    },
+    {
+      "name": "AGS Troll Black Forest Republic",
+      "nation": "AGS",
+      "region": "Troll Black Forest Republic",
+      "cost": 15,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Survival": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Awakened Black Forest",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "AGS SINless",
+      "nation": "AGS",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {
+        "AGI": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        }
+      ]
+    },
+    {
+      "name": "Berlin Anarchist",
+      "nation": "Berlin",
+      "region": "Anarchist",
+      "cost": 15,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {
+        "negative_total": 8,
+        "negative": [
+          "Distinctive Style",
+          "Prejudiced (Police)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Unarmed": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Anarchy",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Berlin Corp",
+      "nation": "Berlin",
+      "region": "Corp",
+      "cost": 15,
+      "attributes": {
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Con": 1,
+        "Etiquette": 1,
+        "Computer": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Anarchy",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Berlin Normal Citizien",
+      "nation": "Berlin",
+      "region": "Normal Citizien",
+      "cost": 15,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Negotiation": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Anarchy",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Berlin SINless",
+      "nation": "Berlin",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Anarchy",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Pomorya Elf",
+      "nation": "Pomorya",
+      "region": "Elf",
+      "cost": 15,
+      "attributes": {
+        "CHA": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        },
+        "negative_total": 5,
+        "negative": [
+          "Prejudiced (Non-Elves)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Anarchy",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "German",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Polish",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Sperethiel",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Pomorya Other",
+      "nation": "Pomorya",
+      "region": "Other",
+      "cost": 15,
+      "attributes": {
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        },
+        "negative_total": 5,
+        "negative": [
+          "Prejudiced (Non-Pomoryans)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "Anarchy",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "German",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Polish",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Sperethiel",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Pomorya SINless",
+      "nation": "Pomorya",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[Country]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Country"
+        },
+        {
+          "name": "German",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Morocco General",
+      "nation": "Morocco",
+      "region": "General",
+      "cost": 15,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": null
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Survival": 1,
+        "Etiquette": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language",
+          "options": [
+            "Arabic",
+            "Tamazight",
+            "French",
+            "Spanish",
+            "English"
+          ]
+        },
+        {
+          "name": "[History]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        }
+      ],
+      "primary_language_options": [
+        "Arabic",
+        "Tamazight"
+      ],
+      "secondary_language_options": [
+        "Arabic",
+        "Tamazight",
+        "French",
+        "Spanish",
+        "English"
+      ]
+    },
+    {
+      "name": "Morocco SINless",
+      "nation": "Morocco",
+      "region": "SINless",
+      "cost": 15,
+      "attributes": {
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {},
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        }
+      ],
+      "primary_language_options": [
+        "Arabic",
+        "Tamazight"
+      ],
+      "secondary_language_options": [
+        "Arabic",
+        "Tamazight",
+        "French",
+        "Spanish",
+        "English"
+      ]
+    }
+  ]
+}

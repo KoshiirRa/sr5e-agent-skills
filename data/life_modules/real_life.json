@@ -1,0 +1,6156 @@
+{
+  "stage": "Real Life",
+  "source": {
+    "spreadsheet_id": "13UgaTbc9v4UhHchyVwfzsuSbW3JrNFN-SxtgSoG3-44",
+    "tab": "Real Life"
+  },
+  "selection_rules": {
+    "mode": "unlimited",
+    "max_selections": null,
+    "description": "Players can take as many Real Life modules as they can afford."
+  },
+  "placeholder_convention": "Knowledge skills with is_placeholder=true (enclosed in [brackets]) are placeholders; during character creation, the player chooses a specific knowledge skill or language matching that description.",
+  "count": 151,
+  "modules": [
+    {
+      "name": "Assassin's Apprentice",
+      "category": "Assassin's Apprentice",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 8,
+        "positive": [
+          "Blandness"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Disguise": 1,
+        "Gymnastics": 1,
+        "Palming": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Con": 1,
+        "Etiquette": 1,
+        "Negotiation": 1,
+        "Armorer": 1,
+        "Demolitions": 1,
+        "Forgery": 1,
+        "Gunnery": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 5,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "Retail Operations",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Sniper Nests",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Auto Duelist",
+      "category": "Auto Duelist",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "REA": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        },
+        "positive_total": 3,
+        "positive": [
+          "Speed Demon"
+        ],
+        "negative_total": 5,
+        "negative": [
+          "Latest and Greatest"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Automatics": 1,
+        "Pistols": 1,
+        "Unarmed": 2,
+        "Intimidation": 2,
+        "Automotive Mech": 2,
+        "Gunnery": 2,
+        "Pilot Ground Craft": 3
+      },
+      "knowledge_skills": [
+        {
+          "name": "Autoduelist Scene",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Federal Highways",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Illegal Circuits",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Police Procedures",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Bardi",
+      "category": "Bardi",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "REA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Animal Empathy"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Longarms": 1,
+        "Gymnastics": 1,
+        "Tracking": 1,
+        "Intimidation": 1,
+        "Leadership": 1,
+        "Animal Handling": 1
+      },
+      "skill_specializations": {
+        "Animal Handling": "Specialization: Riding"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[History]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "History"
+        },
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Berber Tribes",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Bocor Slave",
+      "category": "Bocor Slave",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "STR": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "negative_total": 10,
+        "negative": [
+          "Insomnia"
+        ]
+      },
+      "skill_groups": {
+        "Close Combat": 1
+      },
+      "active_skills": {
+        "Armorer": 1,
+        "Artisan": 2,
+        "Automotive Mech": 1,
+        "Industrial Mech": 1,
+        "Nautical Mech": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Buildings",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Farming",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Bounty Hunter",
+      "category": "Bounty Hunter",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Athletics": 1,
+        "Close Combat": 1
+      },
+      "active_skills": {
+        "Longarms": 1,
+        "Pistols": 1,
+        "Perception": 1,
+        "Survival": 1,
+        "Tracking": 1,
+        "Intimidation": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Crook Hangouts",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Police Procedures",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Buisness Apprentice",
+      "category": "Buisness Apprentice",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 12,
+        "positive": [
+          "Bilingual",
+          "Dealer Connection (pick one:\naircraft, drones, ground craft, or watercraft)",
+          "Linguist"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 2,
+        "Con": 2,
+        "Etiquette": 2,
+        "Negotiation": 2
+      },
+      "skill_specializations": {
+        "Etiquette": "Specialization: Buisness"
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "Celebrity",
+      "category": "Celebrity",
+      "job": null,
+      "cost": 100,
+      "note": "+1 to two attributes of your choice (must be two separate attributes, other than Charisma),  +6 to buy any skills you think appropriate to your field of celebrity (no more than 3 ranks in any individual skill; ranks in Con and Escape Artist may be purchased with these points)",
+      "attributes": {
+        "CHA": 1
+      },
+      "qualities": {
+        "positive_total": 8,
+        "positive": [
+          "Fame"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Escape Artist": 1,
+        "Con": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Sports, Music or Film",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ],
+      "choices": [
+        {
+          "type": "pick_attributes",
+          "count": 2,
+          "ranks": 1,
+          "distinct": true,
+          "exclude": [
+            "CHA"
+          ]
+        },
+        {
+          "type": "free_skill_points",
+          "points": 6,
+          "max_per_skill": 3,
+          "scope": "skills appropriate to your field of celebrity (Con and Escape Artist allowed)"
+        }
+      ]
+    },
+    {
+      "name": "Combat Correspondent",
+      "category": "Combat Correspondent",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 10,
+        "positive": [
+          "Guts"
+        ]
+      },
+      "skill_groups": {
+        "Electronics": 2
+      },
+      "active_skills": {
+        "Perception": 2,
+        "Survival": 1,
+        "Negotiation": 2,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Language 2]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language 2"
+        },
+        {
+          "name": "Journalism",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Company Troubleshooter",
+      "category": "Company Troubleshooter",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 7,
+        "positive": [
+          "Observant",
+          "Solid Rep"
+        ],
+        "negative_total": 4,
+        "negative": [
+          "Records on File 4"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Automatics": 1,
+        "Pistols": 1,
+        "Unarmed": 1,
+        "Sneaking": 1,
+        "Tracking": 1,
+        "Con": 1,
+        "Etiquette": 1,
+        "Instruction": 1,
+        "Intimidation": 1,
+        "Leadership": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Small Unit Tactics",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Corporate Company Man",
+      "category": "Corporate",
+      "job": "Company Man",
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {
+        "Firearms": 3
+      },
+      "active_skills": {
+        "Unarmed": 2,
+        "Sneaking": 3,
+        "Etiquette": 1,
+        "Demolitions": 2,
+        "Pilot Ground Craft": 2
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "Corporate Hacker/Decker",
+      "category": "Corporate",
+      "job": "Hacker/Decker",
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {
+        "Cracking": 2,
+        "Electronics": 3
+      },
+      "active_skills": {
+        "Etiquette": 1,
+        "First Aid": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Matrix Security Design",
+          "ranks": 6,
+          "is_placeholder": false
+        },
+        {
+          "name": "Physics",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Corporate Security Guard",
+      "category": "Corporate",
+      "job": "Security Guard",
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {
+        "Athletics": 2,
+        "Close Combat": 2,
+        "Firearms": 2
+      },
+      "active_skills": {
+        "Perception": 2,
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Law Enforcement Procedures",
+          "ranks": 4,
+          "is_placeholder": false
+        },
+        {
+          "name": "Security Procedures",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Corporate Security Rigger",
+      "category": "Corporate",
+      "job": "Security Rigger",
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {
+        "Electronics": 2
+      },
+      "active_skills": {
+        "Perception": 2,
+        "Etiquette": 1,
+        "Gunnery": 3,
+        "Pilot Aircraft": 2,
+        "Pilot Walker": 2,
+        "Pilot Ground Craft": 3
+      },
+      "knowledge_skills": [
+        {
+          "name": "Drones",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Corporate Wage Mage",
+      "category": "Corporate",
+      "job": "Wage Mage",
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {
+        "Conjuring": 2,
+        "Enchanting": 1,
+        "Sorcery": 2
+      },
+      "active_skills": {
+        "Etiquette": 1,
+        "Arcana": 2,
+        "Assensing": 3,
+        "Astral Combat": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Magical Law",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "Corporate Wage Slave",
+      "category": "Corporate",
+      "job": "Wage Slave",
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Con": 1,
+        "Etiquette": 3,
+        "Negotiation": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Administration",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Corpsec Officer, Basic",
+      "category": "Corpsec Officer, Basic",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1
+      },
+      "qualities": {
+        "positive_total": 15,
+        "positive": [
+          "Location Attunement 1",
+          "Observant",
+          "Perceptive 1"
+        ],
+        "negative_total": 15,
+        "negative": [
+          "Day Job (15)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Pistols": 1,
+        "Perception": 1,
+        "Running": 1,
+        "Tracking": 1,
+        "Intimidation": 1,
+        "Leadership": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Small Unit Tactics",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Covert Operations",
+      "category": "Covert Operations",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 11,
+        "positive": [
+          "Hawk Eye",
+          "Poor Link"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Pistols": 1,
+        "Unarmed": 1,
+        "Escape Artist": 1,
+        "Gymnastics": 1,
+        "Perception": 1,
+        "Sneaking": 2,
+        "Survival": 1,
+        "Con": 1,
+        "Etiquette": 1,
+        "Chemistry": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Any]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Any"
+        },
+        {
+          "name": "Codes",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Craftsman Creative, Industrial or Practical",
+      "category": "Craftsman",
+      "job": "Creative, Industrial or Practical",
+      "cost": 100,
+      "note": "[Crafting Skill] +4, [Secondary Skill] +2",
+      "attributes": {
+        "BOD": 1,
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Instruction": 2,
+        "Negotiation": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Job]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Job"
+        },
+        {
+          "name": "[Professional]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Professional"
+        }
+      ],
+      "choices": [
+        {
+          "type": "placeholder_skill",
+          "ranks": 4,
+          "description": "[Crafting Skill]"
+        },
+        {
+          "type": "placeholder_skill",
+          "ranks": 2,
+          "description": "[Secondary Skill]"
+        }
+      ]
+    },
+    {
+      "name": "Craftsman Mechanic",
+      "category": "Craftsman",
+      "job": "Mechanic",
+      "cost": 100,
+      "note": "[Mechanical Skill] +3 (Spec: [Any]), [Secondary Skill] +2",
+      "attributes": {
+        "BOD": 1,
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Instruction": 2,
+        "Negotiation": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Job]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Job"
+        },
+        {
+          "name": "[Professional]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Professional"
+        }
+      ],
+      "choices": [
+        {
+          "type": "placeholder_skill",
+          "ranks": 3,
+          "specialization": "[Any]",
+          "description": "[Mechanical Skill]"
+        },
+        {
+          "type": "placeholder_skill",
+          "ranks": 2,
+          "description": "[Secondary Skill]"
+        }
+      ]
+    },
+    {
+      "name": "Dead",
+      "category": "Dead",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "REA": 1
+      },
+      "qualities": {
+        "positive_total": 8,
+        "positive": [
+          "Blandness"
+        ],
+        "negative_total": 20,
+        "negative": [
+          "Dead SIN"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Escape Artist": 1,
+        "Running": 1,
+        "Sneaking": 1,
+        "Survival": 2,
+        "Con": 2,
+        "Negotiation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Police Hangouts and Checkpoints",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "DeMeKo Investigative Journalist",
+      "category": "DeMeKo Investigative Journalist",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        },
+        "negative_total": 2,
+        "negative": [
+          "Driven"
+        ]
+      },
+      "skill_groups": {
+        "Electronics": 2
+      },
+      "active_skills": {
+        "Con": 2,
+        "Etiquette": 1,
+        "Intimidation": 1,
+        "Negotiation": 2,
+        "Hacking": 1,
+        "Locksmith": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City] Politics",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Investigative Journalism",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Journalism",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Drifter",
+      "category": "Drifter",
+      "job": null,
+      "cost": 100,
+      "note": "+1 to any two attributes (must be separate attributes)",
+      "attributes": {},
+      "qualities": {
+        "positive_total": 10,
+        "positive": [
+          "High Pain Tolerance",
+          "Sense of Direction"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Unarmed": 1,
+        "Escape Artist": 1,
+        "Sneaking": 1,
+        "Running": 1,
+        "Survival": 2,
+        "Swimming": 1,
+        "Con": 2,
+        "Negotiation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 5,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Any]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Any"
+        },
+        {
+          "name": "Black Market",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Grey Market",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ],
+      "choices": [
+        {
+          "type": "pick_attributes",
+          "count": 2,
+          "ranks": 1,
+          "distinct": true
+        }
+      ]
+    },
+    {
+      "name": "Drone Hobbyist",
+      "category": "Drone Hobbyist",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Sneaking": 1,
+        "Tracking": 1,
+        "Automotive Mech": 2,
+        "Gunnery": 2,
+        "Pilot Aircraft": 2,
+        "Pilot Walker": 2,
+        "Pilot Ground Craft": 2,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Drone Manufacturers",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Drone Software",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Dropout",
+      "category": "Dropout",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 8,
+        "positive": [
+          "Grease Monkey"
+        ],
+        "negative_total": 10,
+        "negative": [
+          "Codeblock"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 1,
+        "Engineering": 1,
+        "Outdoors": 1
+      },
+      "active_skills": {
+        "Longarms": 1,
+        "Running": 1,
+        "Hardware": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Farming",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Hunting",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Escaped Technomancer",
+      "category": "Escaped Technomancer",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 15,
+        "positive": [
+          "Guts",
+          "Pain is Gain"
+        ],
+        "negative_total": 7,
+        "negative": [
+          "Vendetta"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Sneaking": 1,
+        "Survival": 1,
+        "Con": 1,
+        "Hacking": 2,
+        "Software": 2,
+        "Compiling": 2,
+        "Decompiling": 2,
+        "Registering": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix related]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix related"
+        },
+        {
+          "name": "[Tech corporations]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Tech corporations"
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Technomancer"
+        ]
+      }
+    },
+    {
+      "name": "Enviornmental Combat Specialist",
+      "category": "Enviornmental Combat Specialist",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 20,
+        "positive": [
+          "High Pain Tolerance",
+          "Outdoorsman",
+          "Will to Live"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 2
+      },
+      "active_skills": {
+        "Survival": 3,
+        "First Aid": 2,
+        "Navigation": 2
+      },
+      "skill_specializations": {
+        "Survival": "Specialization: [Enviornment]",
+        "Navigation": "Specialization: [Enviornment]"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Geography [Area]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Area"
+        }
+      ]
+    },
+    {
+      "name": "Escort",
+      "category": "Escort",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "CHA": 2
+      },
+      "qualities": {
+        "positive_total": 11,
+        "positive": [
+          "First Impression"
+        ],
+        "negative_total": 19,
+        "negative": [
+          "Addiction (Moderate)",
+          "Creature of Comfort (Middle)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Blades": 1,
+        "Perception": 1,
+        "Con": 3,
+        "Etiquette": 3,
+        "Performance": 2
+      },
+      "skill_specializations": {
+        "Con": "Specialization: Seduction"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Interest]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Interest"
+        },
+        {
+          "name": "[Interest 2]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Interest 2"
+        },
+        {
+          "name": "[Interest 3]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Interest 3"
+        }
+      ]
+    },
+    {
+      "name": "Framed",
+      "category": "Framed",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Disguise": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Running": 2,
+        "Survival": 1
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "Ganger",
+      "category": "Ganger",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        }
+      },
+      "skill_groups": {
+        "Cracking": 1,
+        "Electronics": 1,
+        "Firearms": 2,
+        "Stealth": 1
+      },
+      "active_skills": {
+        "Blades": 3,
+        "Heavy Weapon": 1,
+        "Escape Artist": 1,
+        "Perception": 1,
+        "Running": 1,
+        "Survival": 1,
+        "Demolitions": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "Getaway Driver",
+      "category": "Getaway Driver",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 14,
+        "positive": [
+          "Gearhead",
+          "Speed Demon"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Sneaking": 1,
+        "Tracking": 2,
+        "Automotive Mech": 1,
+        "Gunnery": 1,
+        "Pilot Ground Craft": 3,
+        "Pilot Water Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Selected Area] Streets",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Selected Area"
+        },
+        {
+          "name": "Stunt Techniques",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "GermanCatholicChurchPriest Sisters of Mercy",
+      "category": "GermanCatholicChurchPriest",
+      "job": "Sisters of Mercy",
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        },
+        "negative_total": 15,
+        "negative": [
+          "Pacifist 2"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "First Aid": 5,
+        "Medicine": 3,
+        "Assensing": 1,
+        "Spellcasting": 3
+      },
+      "skill_specializations": {
+        "Spellcasting": "Specialization: Health"
+      },
+      "knowledge_skills": [
+        {
+          "name": "German Catholic Church",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "GermanCatholicChurchPriest Voice of the Lord",
+      "category": "GermanCatholicChurchPriest",
+      "job": "Voice of the Lord",
+      "cost": 100,
+      "attributes": {
+        "CHA": 2
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        },
+        "negative_total": 10,
+        "negative": [
+          "Pacifist 1"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Con": 3,
+        "Instruction": 2,
+        "Intimidation": 1,
+        "Negotiation": 2,
+        "Spellcasting": 2
+      },
+      "skill_specializations": {
+        "Spellcasting": "Specialization: Manipulation"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "German Catholic Church",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "GermanCatholicChurchPriest Saint Benedict",
+      "category": "GermanCatholicChurchPriest",
+      "job": "Saint Benedict",
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        },
+        "negative_total": 15,
+        "negative": [
+          "Pacifist 2"
+        ]
+      },
+      "skill_groups": {
+        "Biotechnology": 2
+      },
+      "active_skills": {
+        "Computer": 2,
+        "Cybertechnology": 2,
+        "First Aid": 3,
+        "Hardware": 2,
+        "Medicine": 5
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "German Catholic Church",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "GermanCatholicChurchPriest Saint George",
+      "category": "GermanCatholicChurchPriest",
+      "job": "Saint George",
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        },
+        "positive_total": 4,
+        "positive": [
+          "Deus Vult"
+        ],
+        "negative_total": 12,
+        "negative": [
+          "Prejudice (Women, Biased)",
+          "Prejudiced (Metahumans, Open)"
+        ]
+      },
+      "skill_groups": {
+        "Stealth": 2
+      },
+      "active_skills": {
+        "Assensing": 3,
+        "Astral Combat": 2,
+        "Banishing": 2,
+        "Counterspelling": 3,
+        "Spellcasting": 3
+      },
+      "skill_specializations": {
+        "Spellcasting": "Specialization: Combat"
+      },
+      "knowledge_skills": [
+        {
+          "name": "German Catholic Church",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "GermanCatholicChurchPriest Flaming Sword",
+      "category": "GermanCatholicChurchPriest",
+      "job": "Flaming Sword",
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 4,
+        "positive": [
+          "Deus Vult"
+        ],
+        "negative_total": 21,
+        "negative": [
+          "Pie Iesu Domine. Dona Eis Requiem",
+          "Combat Junkie",
+          "Prejudice (Women, Biased), Prejudiced (Metahumans, Open)"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 1,
+        "Firearms": 2
+      },
+      "active_skills": {
+        "Blades": 3,
+        "Astral Combat": 2,
+        "Spellcasting": 3
+      },
+      "skill_specializations": {
+        "Spellcasting": "Specialization: Combat"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Christian Churches",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "German Catholic Church",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "GermanCatholicChurchPriest Laodicea, Expeller",
+      "category": "GermanCatholicChurchPriest",
+      "job": "Laodicea, Expeller",
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "MAG/RES": 1
+      },
+      "qualities": {
+        "positive_total": 4,
+        "positive": [
+          "Deus Vult"
+        ],
+        "negative_total": 5,
+        "negative": [
+          "Prejudiced (AIs, Open)"
+        ]
+      },
+      "skill_groups": {
+        "Tasking": 2
+      },
+      "active_skills": {
+        "Cybercombat": 3,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "AI",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "German Catholic Church",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Technomancer"
+        ]
+      }
+    },
+    {
+      "name": "GermanCatholicChurchPriest Laodicea, Itinerant Preacher",
+      "category": "GermanCatholicChurchPriest",
+      "job": "Laodicea, Itinerant Preacher",
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "MAG/RES": 1
+      },
+      "qualities": {
+        "negative_total": 10,
+        "negative": [
+          "Pacifist 1"
+        ]
+      },
+      "skill_groups": {
+        "Tasking": 3
+      },
+      "active_skills": {
+        "Con": 3,
+        "Negotiation": 1,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "German Catholic Church",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Technomancer"
+        ]
+      }
+    },
+    {
+      "name": "GermanCatholicChurchPriest Healing Mother",
+      "category": "GermanCatholicChurchPriest",
+      "job": "Healing Mother",
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "negative_total": 10,
+        "negative": [
+          "Pacifist 2"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Con": 2,
+        "Instruction": 2,
+        "First Aid": 4,
+        "Medicine": 3
+      },
+      "knowledge_skills": [
+        {
+          "name": "German Catholic Church",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Go-Ganger/MC Member",
+      "category": "Go-Ganger/MC Member",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        },
+        "positive_total": 5,
+        "positive": [
+          "Made Man"
+        ]
+      },
+      "skill_groups": {
+        "Close Combat": 2,
+        "Firearms": 2
+      },
+      "active_skills": {
+        "Intimidation": 3,
+        "Automotive Mech": 2,
+        "Pilot Ground Craft": 3
+      },
+      "skill_specializations": {
+        "Pilot Ground Craft": "Specialization: Motorcyles"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Gang]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Gang"
+        },
+        {
+          "name": "Motorways",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Gone AWOL",
+      "category": "Gone AWOL",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        },
+        "positive_total": 0,
+        "positive": [
+          "Battled-hardened"
+        ],
+        "negative_total": 17,
+        "negative": [
+          "Paranoia",
+          "Wanted"
+        ]
+      },
+      "skill_groups": {
+        "Acting": 3,
+        "Stealth": 3
+      },
+      "active_skills": {
+        "Clubs": 2,
+        "Pistols": 2,
+        "Running": 2,
+        "Automotive Mech": 3,
+        "Computer": 2,
+        "Locksmith": 2,
+        "Pilot Ground Craft": 3
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "Gone Native",
+      "category": "Gone Native",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "CHA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "negative_total": 15,
+        "negative": [
+          "Pacifist",
+          "Prejudice (Non-natives, Biased)"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 3,
+        "Outdoors": 3
+      },
+      "active_skills": {
+        "Throwing": 4
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Local Nature]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Local Nature"
+        }
+      ]
+    },
+    {
+      "name": "Government Agent",
+      "category": "Government Agent",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Influence": 2
+      },
+      "active_skills": {
+        "Pistols": 2,
+        "Perception": 3,
+        "Running": 1,
+        "Tracking": 1,
+        "First Aid": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Government Procedures",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Law Enforcement Procedures",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "National Threats",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Guardian Angel",
+      "category": "Guardian Angel",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 10,
+        "positive": [
+          "Guts"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Clubs": 1,
+        "Pistols": 1,
+        "Gymnastics": 2,
+        "Perception": 1,
+        "Running": 1,
+        "Sneaking": 1,
+        "Tracking": 1,
+        "Intimidation": 1,
+        "First Aid": 1,
+        "Medicine": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Assassin Networks",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Runner Hangouts",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Small Unit Tactics",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Weapon Manufacturers",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Hacker Assassin",
+      "category": "Hacker Assassin",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 6,
+        "positive": [
+          "Go Big or Go Home"
+        ]
+      },
+      "skill_groups": {
+        "Electronics": 2
+      },
+      "active_skills": {
+        "Cybercombat": 3,
+        "Electronic Warfare": 1,
+        "Hacking": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix related]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix related"
+        },
+        {
+          "name": "[Tech corporations]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Tech corporations"
+        }
+      ]
+    },
+    {
+      "name": "Hacker Hobbyist",
+      "category": "Hacker Hobbyist",
+      "job": null,
+      "cost": 100,
+      "note": "[Any] Mechanic +1",
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 8,
+        "positive": [
+          "Golden Screwdriver"
+        ]
+      },
+      "skill_groups": {
+        "Electronics": 2
+      },
+      "active_skills": {
+        "Etiquette": 1,
+        "Computer": 2,
+        "Cybercombat": 2,
+        "Hacking": 2,
+        "Hardware": 2,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix related]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix related"
+        },
+        {
+          "name": "[Tech corporations]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Tech corporations"
+        }
+      ],
+      "choices": [
+        {
+          "type": "pick_skills",
+          "count": 1,
+          "ranks": 1,
+          "options": [
+            "Aeronautic Mech",
+            "Automotive Mech",
+            "Industrial Mech",
+            "Nautical Mech"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "High-Profile Hack",
+      "category": "High-Profile Hack",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 11,
+        "positive": [
+          "Online Fame",
+          "Prime Datahaven Membership"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Leadership": 2,
+        "Computer": 2,
+        "Cybercombat": 2,
+        "Electronic Warfare": 2,
+        "Hacking": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix related]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix related"
+        },
+        {
+          "name": "Secure Matrix Locations",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "IT Ace",
+      "category": "IT Ace",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 9,
+        "positive": [
+          "Overclocker",
+          "Quick Config"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 2,
+        "Computer": 2,
+        "Cybercombat": 2,
+        "Electronic Warfare": 1,
+        "Hacking": 2,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix related]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix related"
+        },
+        {
+          "name": "[Tech corporations]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Tech corporations"
+        }
+      ]
+    },
+    {
+      "name": "In The Thick",
+      "category": "In The Thick",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 7,
+        "positive": [
+          "Battled-hardened",
+          "Tough as Nails: Physical"
+        ],
+        "negative_total": 15,
+        "negative": [
+          "Impassive",
+          "Social Stress"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 1,
+        "Close Combat": 1,
+        "Firearms": 3
+      },
+      "active_skills": {
+        "Heavy Weapon": 2,
+        "Throwing": 3,
+        "Intimidation": 2,
+        "First Aid": 2
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "LawEnforcement Beat Cop",
+      "category": "LawEnforcement",
+      "job": "Beat Cop",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Clubs": 1,
+        "Pistols": 1,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Intimidation": 2,
+        "Leadership": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 5,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Police Procedures",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "LawEnforcement Cyber Crime",
+      "category": "LawEnforcement",
+      "job": "Cyber Crime",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Cracking": 1,
+        "Electronics": 1
+      },
+      "active_skills": {
+        "Clubs": 1,
+        "Pistols": 1,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Leadership": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Matrix Criminals",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Police Procedures",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "LawEnforcement Cyber Division",
+      "category": "LawEnforcement",
+      "job": "Cyber Division",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Clubs": 1,
+        "Heavy Weapon": 2,
+        "Pistols": 1,
+        "Unarmed": 1,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Leadership": 1,
+        "Cybertechnology": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Police Procedures",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "LawEnforcement Mage Division",
+      "category": "LawEnforcement",
+      "job": "Mage Division",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Sorcery": 1
+      },
+      "active_skills": {
+        "Clubs": 1,
+        "Pistols": 1,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Leadership": 1,
+        "First Aid": 1,
+        "Arcana": 1,
+        "Assensing": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Magical Threats",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Police Procedures",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "LawEnforcement Rigger",
+      "category": "LawEnforcement",
+      "job": "Rigger",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Clubs": 1,
+        "Pistols": 1,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Leadership": 1,
+        "Automotive Mech": 1,
+        "First Aid": 1,
+        "Gunnery": 1,
+        "Pilot Aircraft": 1,
+        "Pilot Walker": 1,
+        "Pilot Ground Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Drones",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Police Procedures",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "LawEnforcement SWAT Team",
+      "category": "LawEnforcement",
+      "job": "SWAT Team",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Clubs": 1,
+        "Pistols": 1,
+        "Throwing": 2,
+        "Gymnastics": 1,
+        "Perception": 1,
+        "Etiquette": 1,
+        "Leadership": 1,
+        "Armorer": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Police Procedures",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Lost At Sea",
+      "category": "Lost At Sea",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 20,
+        "positive": [
+          "Daredevil",
+          "Perceptive",
+          "Sense of Direction and Water Sprite"
+        ],
+        "negative_total": 8,
+        "negative": [
+          "Hung Out to Dry"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Throwing": 3,
+        "Diving": 4,
+        "Survival": 4,
+        "Swimming": 4,
+        "First Aid": 2,
+        "Nautical Mech": 1,
+        "Navigation": 3,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Local Nature",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Lost In The Wilds",
+      "category": "Lost In The Wilds",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1,
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Outdoorsman"
+        ],
+        "negative_total": 14,
+        "negative": [
+          "Uncouth"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 1,
+        "Outdoors": 4
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Throwing": 1,
+        "Sneaking": 2
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "Matrix Ghost",
+      "category": "Matrix Ghost",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 11,
+        "positive": [
+          "I C U",
+          "Ninja Vanish"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Sneaking": 2,
+        "Con": 1,
+        "Computer": 2,
+        "Cybercombat": 2,
+        "Electronic Warfare": 1,
+        "Hacking": 2,
+        "Hardware": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Tech corporations]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Tech corporations"
+        },
+        {
+          "name": "Matrix Security",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Moroccan Citizen",
+      "category": "Moroccan Citizen",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        },
+        "positive_total": 9,
+        "positive": [
+          "College or Trade School Eductation",
+          "Perceptive"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {},
+      "knowledge_skills": []
+    },
+    {
+      "name": "Mr. Johnson",
+      "category": "Mr. Johnson",
+      "job": null,
+      "cost": 100,
+      "note": "Pick three (3) Contacts, each with seven (7) points to spend between Loyalty and Connection",
+      "attributes": {
+        "CHA": 1
+      },
+      "qualities": {
+        "negative_total": 1,
+        "negative": [
+          "Records on File"
+        ]
+      },
+      "skill_groups": {
+        "Influence": 3
+      },
+      "active_skills": {
+        "Pistols": 2,
+        "Perception": 1,
+        "Intimidation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Megacorporation]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Megacorporation"
+        },
+        {
+          "name": "Economics",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Runner Hangouts",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ],
+      "choices": [
+        {
+          "type": "free_contacts",
+          "count": 3,
+          "points_each": 7,
+          "description": "Pick three (3) Contacts, each with seven (7) points to spend between Loyalty and Connection"
+        }
+      ]
+    },
+    {
+      "name": "North Sea Pirate",
+      "category": "North Sea Pirate",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        },
+        "positive_total": 4,
+        "positive": [
+          "Chaser"
+        ]
+      },
+      "skill_groups": {
+        "Close Combat": 3,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Automatics": 1,
+        "Pistols": 1,
+        "Nautical Mech": 2,
+        "Gunnery": 1,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Ship Models",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Smuggler Routes",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Organized Crime",
+      "category": "Organized Crime",
+      "job": null,
+      "cost": 100,
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        },
+        "positive_total": 5,
+        "positive": [
+          "Made Man"
+        ]
+      },
+      "skill_groups": {
+        "Firearms": 3,
+        "Stealth": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 2,
+        "Escape Artist": 1,
+        "Perception": 2,
+        "Con": 2,
+        "Etiquette": 1,
+        "Intimidation": 2,
+        "Leadership": 1,
+        "Negotiation": 1,
+        "Demolitions": 1,
+        "Forgery": 1,
+        "Hardware": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Syndicate]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Syndicate"
+        }
+      ]
+    },
+    {
+      "name": "Otaku Time",
+      "category": "Otaku Time",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 10,
+        "positive": [
+          "Otaku to Technomancer"
+        ]
+      },
+      "skill_groups": {
+        "Tasking": 2
+      },
+      "active_skills": {
+        "Cybercombat": 1,
+        "Electronic Warfare": 1,
+        "Hacking": 1,
+        "Software": 2,
+        "Compiling": 2,
+        "Decompiling": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix related]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix related"
+        },
+        {
+          "name": "[Tech corporations]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Tech corporations"
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Technomancer"
+        ]
+      }
+    },
+    {
+      "name": "Pirate Captain",
+      "category": "Pirate Captain",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 8,
+        "positive": [
+          "Fame",
+          "Linguist"
+        ]
+      },
+      "skill_groups": {
+        "Outdoors": 1
+      },
+      "active_skills": {
+        "Diving": 1,
+        "Swimming": 2,
+        "Intimidation": 1,
+        "Leadership": 1,
+        "Nautical Mech": 2,
+        "Gunnery": 1,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Local Area] Waterways",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Local Area"
+        },
+        {
+          "name": "Watcercraft",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Pirate Crewmember",
+      "category": "Pirate Crewmember",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "STR": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Close Combat": 1,
+        "Outdoors": 1
+      },
+      "active_skills": {
+        "Pistols": 1,
+        "Swimming": 1,
+        "Locksmith": 1,
+        "Nautical Mech": 2,
+        "Gunnery": 1,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Local Area] Waterways",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Local Area"
+        },
+        {
+          "name": "Knots",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Pit Fighter",
+      "category": "Pit Fighter",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "positive_total": 17,
+        "positive": [
+          "High Pain Tolerance 2",
+          "Quick Healer"
+        ]
+      },
+      "skill_groups": {
+        "Close Combat": 2
+      },
+      "active_skills": {
+        "Intimidation": 2,
+        "Negotiation": 1,
+        "Performance": 1,
+        "Cybertechnology": 1,
+        "First Aid": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Pit Fighting",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Syndicates",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Political Activist",
+      "category": "Political Activist",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Pistols": 2,
+        "Disguise": 1,
+        "Palming": 2,
+        "Perception": 2,
+        "Con": 1,
+        "Etiquette": 2,
+        "Instruction": 1,
+        "Leadership": 2,
+        "Negotiation": 2,
+        "Forgery": 2,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Policlub]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Policlub"
+        },
+        {
+          "name": "Police Procedures",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Postgraduate Studies",
+      "category": "Postgraduate Studies",
+      "job": null,
+      "cost": 100,
+      "note": "+10 to skills from your education module (no more than 4 added to any one skill)",
+      "attributes": {
+        "CHA": 1,
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Instruction": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "[Major]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Major"
+        }
+      ],
+      "choices": [
+        {
+          "type": "free_skill_points",
+          "points": 10,
+          "max_per_skill": 4,
+          "scope": "skills from your Further Education module"
+        }
+      ]
+    },
+    {
+      "name": "Private Investigator",
+      "category": "Private Investigator",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Athletics": 1,
+        "Influence": 1
+      },
+      "active_skills": {
+        "Pistols": 2,
+        "Unarmed": 1,
+        "Perception": 2,
+        "Tracking": 1,
+        "First Aid": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Law Enforcement Procedures",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "prior_real_life_categories_any": [
+          "TourOfDutyMET2000",
+          "TourOfDutyMercenary",
+          "TourOfDutyNAN",
+          "TourOfDutyNorthAmerica",
+          "TourOfDutyRMAF",
+          "TourOfDutyTírTairngire",
+          "Tour of Duty (Desert Wars)",
+          "LawEnforcement",
+          "Covert Operations",
+          "ShadowWork",
+          "Corporate"
+        ],
+        "description": "May not be picked until you have completed a Tour of Duty, Law Enforcement, Covert Operations, Shadow Work, or Corporate module."
+      }
+    },
+    {
+      "name": "ProfessionalAthlete Awakened Athlete",
+      "category": "ProfessionalAthlete",
+      "job": "Awakened Athlete",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 12,
+        "positive": [
+          "Fame (National)",
+          "Focused Concentration (1)"
+        ]
+      },
+      "skill_groups": {
+        "Sorcery": 2
+      },
+      "active_skills": {
+        "Etiquette": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Sport]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Sport"
+        },
+        {
+          "name": "Magical Law",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Magical Theory",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician",
+          "Adept"
+        ]
+      }
+    },
+    {
+      "name": "ProfessionalAthlete Combat Biker/Urban Brawl Outrider",
+      "category": "ProfessionalAthlete",
+      "job": "Combat Biker/Urban Brawl Outrider",
+      "cost": 100,
+      "note": "Choose two: Clubs, Gunnery, Longarms or Unarmed Combat +2",
+      "attributes": {
+        "BOD": 1,
+        "REA": 2,
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 10,
+        "positive": [
+          "Fame (National)",
+          "Steely Eyed Wheelman"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 2,
+        "Aeronautic Mech": 1,
+        "Pilot Ground Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Sport]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Sport"
+        }
+      ],
+      "choices": [
+        {
+          "type": "pick_skills",
+          "count": 2,
+          "ranks": 2,
+          "options": [
+            "Clubs",
+            "Gunnery",
+            "Longarms",
+            "Unarmed"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProfessionalAthlete Courtballer",
+      "category": "ProfessionalAthlete",
+      "job": "Courtballer",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 17,
+        "positive": [
+          "Fame (National)",
+          "Toughness"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Blades": 2,
+        "Clubs": 1,
+        "Unarmed": 1,
+        "Etiquette": 2,
+        "Intimidation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Sport]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Sport"
+        },
+        {
+          "name": "Spanish",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "ProfessionalAthlete Drone Racer",
+      "category": "ProfessionalAthlete",
+      "job": "Drone Racer",
+      "cost": 100,
+      "note": "Choose two: Pilot Aircraft, Pilot Exotic Vehicle, Pilot Ground Craft, Pilot Walker, or Pilot Watercraft +2",
+      "attributes": {
+        "REA": 2,
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 19,
+        "positive": [
+          "Fame (National)",
+          "Gearhead"
+        ]
+      },
+      "skill_groups": {
+        "Engineering": 2
+      },
+      "active_skills": {
+        "Etiquette": 2,
+        "Electronic Warfare": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Sport]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Sport"
+        }
+      ],
+      "choices": [
+        {
+          "type": "pick_skills",
+          "count": 2,
+          "ranks": 2,
+          "options": [
+            "Pilot Aircraft",
+            "Pilot Exotic Vehicle",
+            "Pilot Ground Craft",
+            "Pilot Walker",
+            "Pilot Watercraft"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProfessionalAthlete Freestyle Fighter",
+      "category": "ProfessionalAthlete",
+      "job": "Freestyle Fighter",
+      "cost": 100,
+      "attributes": {
+        "REA": 2,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 8,
+        "positive": [
+          "Fame (National)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Unarmed": 2,
+        "Etiquette": 2,
+        "Intimidation": 2,
+        "First Aid": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Sport]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Sport"
+        },
+        {
+          "name": "Martial Arts",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "ProfessionalAthlete Hurler/Stickballer",
+      "category": "ProfessionalAthlete",
+      "job": "Hurler/Stickballer",
+      "cost": 100,
+      "attributes": {
+        "REA": 2,
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 15,
+        "positive": [
+          "Fame (National)",
+          "Natural Athlete"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Clubs": 2,
+        "Throwing": 1,
+        "Gymnastics": 1,
+        "Running": 2,
+        "Etiquette": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Sport]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Sport"
+        },
+        {
+          "name": "Sperethiel or any NAN language",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "ProfessionalAthlete Miracle Shooter",
+      "category": "ProfessionalAthlete",
+      "job": "Miracle Shooter",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "REA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 8,
+        "positive": [
+          "Fame (National)"
+        ]
+      },
+      "skill_groups": {
+        "Firearms": 2
+      },
+      "active_skills": {
+        "Gymnastics": 1,
+        "Running": 2,
+        "Etiquette": 2,
+        "Computer": 1,
+        "Software": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Sport]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Sport"
+        }
+      ]
+    },
+    {
+      "name": "ProfessionalAthlete Professional Gamer",
+      "category": "ProfessionalAthlete",
+      "job": "Professional Gamer",
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 13,
+        "positive": [
+          "Fame (National)",
+          "Overclocker"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 2,
+        "Leadership": 1,
+        "Computer": 2,
+        "Cybercombat": 2,
+        "Electronic Warfare": 2,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Sport]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Sport"
+        },
+        {
+          "name": "Video Games",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Regular Job",
+      "category": "Regular Job",
+      "job": null,
+      "cost": 100,
+      "note": "+6 points to be spent among vocational skills relating to your job (no more than 3 ranks per skill)",
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Leadership": 1,
+        "Negotiation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Any]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Any"
+        },
+        {
+          "name": "[Job]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Job"
+        }
+      ],
+      "choices": [
+        {
+          "type": "free_skill_points",
+          "points": 6,
+          "max_per_skill": 3,
+          "scope": "vocational skills relating to your job"
+        }
+      ]
+    },
+    {
+      "name": "Rising Star",
+      "category": "Rising Star",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 9,
+        "positive": [
+          "Natural Leader",
+          "Legendary Rep"
+        ],
+        "negative_total": 11,
+        "negative": [
+          "Driven",
+          "Stay Out of my Way"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Palming": 1,
+        "Perception": 1,
+        "Con": 1,
+        "Etiquette": 1,
+        "Intimidation": 1,
+        "Leadership": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Professional]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Professional"
+        }
+      ]
+    },
+    {
+      "name": "Ritual Killer",
+      "category": "Ritual Killer",
+      "job": null,
+      "cost": 100,
+      "note": "Rituals: Curse, Prodigal Spell",
+      "attributes": {
+        "WIL": 2
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Tracking": 2,
+        "Arcana": 1,
+        "Counterspelling": 1,
+        "Ritual Spellcasting": 3,
+        "Spellcasting": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Material Links",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Security Techniques",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "ShadowWork Face",
+      "category": "ShadowWork",
+      "job": "Face",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "CHA": 1
+      },
+      "qualities": {
+        "positive_total": 11,
+        "positive": [
+          "First Impression"
+        ]
+      },
+      "skill_groups": {
+        "Influence": 3
+      },
+      "active_skills": {
+        "Pistols": 1,
+        "Con": 1,
+        "Intimidation": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "ShadowWork Shadow Decker",
+      "category": "ShadowWork",
+      "job": "Shadow Decker",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 10,
+        "positive": [
+          "Codeslinger"
+        ]
+      },
+      "skill_groups": {
+        "Cracking": 2,
+        "Electronics": 2
+      },
+      "active_skills": {
+        "Pistols": 1,
+        "Perception": 1,
+        "Forgery": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Matrix Security Procedures",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "ShadowWork Smuggler",
+      "category": "ShadowWork",
+      "job": "Smuggler",
+      "cost": 100,
+      "note": "[Aeronautics, Automotive, or Nautical] Mechanic +2,",
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Pistols": 1,
+        "Perception": 2,
+        "Sneaking": 1,
+        "Etiquette": 1,
+        "Negotiation": 1,
+        "Electronic Warfare": 2,
+        "Navigation": 1,
+        "Gunnery": 2,
+        "Pilot Aircraft": 2,
+        "Pilot Ground Craft": 2,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Border Patrol Tactics",
+          "ranks": 6,
+          "is_placeholder": false
+        },
+        {
+          "name": "Smuggler Safe Houses",
+          "ranks": 6,
+          "is_placeholder": false
+        }
+      ],
+      "choices": [
+        {
+          "type": "pick_skills",
+          "count": 1,
+          "ranks": 2,
+          "options": [
+            "Aeronautic Mech",
+            "Automotive Mech",
+            "Nautical Mech"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShadowWork Street Samurai",
+      "category": "ShadowWork",
+      "job": "Street Samurai",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "REA": 1
+      },
+      "qualities": {
+        "negative_total": 15,
+        "negative": [
+          "Code of Honor"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 1,
+        "Firearms": 2
+      },
+      "active_skills": {
+        "Blades": 2,
+        "Heavy Weapon": 1,
+        "Unarmed": 1,
+        "Perception": 2,
+        "Sneaking": 1,
+        "Negotiation": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Safe Houses",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "ShadowWork Weapon Specialist",
+      "category": "ShadowWork",
+      "job": "Weapon Specialist",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Close Combat": 2,
+        "Firearms": 2
+      },
+      "active_skills": {
+        "Archery": 1,
+        "Heavy Weapon": 1,
+        "Throwing": 1,
+        "Negotiation": 1,
+        "Armorer": 3,
+        "Chemistry": 2,
+        "Demolitions": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Blade Design",
+          "ranks": 4,
+          "is_placeholder": false
+        },
+        {
+          "name": "Gun Design",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Gun Trivia",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Snake Charmer",
+      "category": "Snake Charmer",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "REA": 1,
+        "CHA": 1
+      },
+      "qualities": {
+        "positive_total": 4,
+        "positive": [
+          "Inspired"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Gymnastics": 1,
+        "Palming": 1,
+        "Con": 1,
+        "Etiquette": 1,
+        "Performance": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Entertainment Industry",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Herpetology",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Music",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Sprawl Guerilla",
+      "category": "Sprawl Guerilla",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        },
+        "negative_total": 10,
+        "negative": [
+          "Prejudiced (Corporate Citizens, Radical)"
+        ]
+      },
+      "skill_groups": {
+        "Firearms": 2,
+        "Stealth": 2
+      },
+      "active_skills": {
+        "Perception": 2,
+        "Con": 1,
+        "Intimidation": 1,
+        "Leadership": 1,
+        "Demolitions": 2,
+        "Forgery": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Police Procedures",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Sprawl Guerilla",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Spy",
+      "category": "Spy",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Cracking": 2
+      },
+      "active_skills": {
+        "Unarmed": 2,
+        "Palming": 1,
+        "Perception": 2,
+        "Sneaking": 2,
+        "Con": 2,
+        "Impersonation": 1,
+        "Computer": 3
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Any]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Any"
+        }
+      ]
+    },
+    {
+      "name": "Street Doc",
+      "category": "Street Doc",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Biotechnology": 2,
+        "Influence": 1
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Con": 1,
+        "Chemistry": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Biology",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Drugs",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Street Gangs",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "StreetMagic Aspected Magician",
+      "category": "StreetMagic",
+      "job": "Aspected Magician",
+      "cost": 100,
+      "note": "Add +1 to the Alchemy, Conjuring, or Spellcasting skill group;",
+      "attributes": {
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Blades": 1,
+        "Survival": 1,
+        "First Aid": 1,
+        "Arcana": 2,
+        "Assensing": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Magical Security",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Magical Theory",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Small Unit Tactics",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Aspected Magician"
+        ]
+      },
+      "choices": [
+        {
+          "type": "pick_skill_groups",
+          "count": 1,
+          "ranks": 1,
+          "options": [
+            "Alchemy",
+            "Conjuring",
+            "Spellcasting"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Street Magic Occult Investigator",
+      "category": "Street Magic",
+      "job": "Occult Investigator",
+      "cost": 100,
+      "attributes": {
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Conjuring": 1,
+        "Influence": 1,
+        "Sorcery": 2
+      },
+      "active_skills": {
+        "Pistols": 1,
+        "Perception": 3,
+        "Tracking": 2,
+        "Locksmith": 1,
+        "Arcana": 1,
+        "Assensing": 3
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Forensics",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "StreetMagic Eco-Shaman",
+      "category": "StreetMagic",
+      "job": "Eco-Shaman",
+      "cost": 100,
+      "attributes": {
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Conjuring": 2,
+        "Sorcery": 2
+      },
+      "active_skills": {
+        "Pistols": 1,
+        "Perception": 2,
+        "Etiquette": 1,
+        "Demolitions": 1,
+        "First Aid": 1,
+        "Forgery": 2,
+        "Assensing": 2,
+        "Astral Combat": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Magical Theory",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Megacorp Law",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "StreetMagic Street Mage",
+      "category": "StreetMagic",
+      "job": "Street Mage",
+      "cost": 100,
+      "attributes": {
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Conjuring": 3,
+        "Sorcery": 2
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Palming": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Assensing": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Charity Shelters",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "StreetMagic Street Shaman",
+      "category": "StreetMagic",
+      "job": "Street Shaman",
+      "cost": 100,
+      "attributes": {
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Conjuring": 3,
+        "Sorcery": 2
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Palming": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Assensing": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Sprawl]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Sprawl"
+        },
+        {
+          "name": "Charity Shelters",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "StreetMagic Talismonger",
+      "category": "StreetMagic",
+      "job": "Talismonger",
+      "cost": 100,
+      "attributes": {
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Enchanting": 3
+      },
+      "active_skills": {
+        "Pistols": 1,
+        "Etiquette": 2,
+        "Negotiation": 2,
+        "Chemistry": 1,
+        "First Aid": 1,
+        "Assensing": 3
+      },
+      "knowledge_skills": [
+        {
+          "name": "Alchemy",
+          "ranks": 5,
+          "is_placeholder": false
+        },
+        {
+          "name": "Telesma",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "Street Preacher",
+      "category": "Street Preacher",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 2
+      },
+      "qualities": {
+        "positive_total": 14,
+        "positive": [
+          "High Pain Tolerance 2"
+        ],
+        "negative_total": 10,
+        "negative": [
+          "Hobo with a Shotgun"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Survival": 1,
+        "Instruction": 2,
+        "Intimidation": 2,
+        "Leadership": 3
+      },
+      "skill_specializations": {
+        "Survival": "Specialization: Urban"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Street Life",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Theology",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Terrorist",
+      "category": "Terrorist",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        }
+      },
+      "skill_groups": {
+        "Firearms": 2
+      },
+      "active_skills": {
+        "Disguise": 2,
+        "Palming": 2,
+        "Perception": 2,
+        "Con": 1,
+        "Leadership": 2,
+        "Demolitions": 3,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Law Enforcement Procedures",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Think Tank",
+      "category": "Think Tank",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "LOG": 2,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 5,
+        "positive": [
+          "Analytical Mind"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic]",
+          "ranks": 6,
+          "is_placeholder": true,
+          "placeholder_description": "Academic"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        },
+        {
+          "name": "[Academic 3]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 3"
+        }
+      ]
+    },
+    {
+      "name": "Trid Stunt Driver",
+      "category": "Trid Stunt Driver",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 6,
+        "positive": [
+          "Steely Eyed Wheelman",
+          "Stunt Driver"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Automotive Mech": 1,
+        "Demolitions": 1,
+        "Gunnery": 1,
+        "Pilot Walker": 1,
+        "Pilot Ground Craft": 3,
+        "Pilot Water Craft": 2
+      },
+      "skill_specializations": {
+        "Etiquette": "Specialization: Corporate"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Stunt Techniques",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Trid Studios",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Tour of Duty (Desert Wars)",
+      "category": "Tour of Duty (Desert Wars)",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 18,
+        "positive": [
+          "Adrenaline Surge",
+          "Battled-hardened"
+        ],
+        "negative_total": 3,
+        "negative": [
+          "Thousand Yard Stare"
+        ]
+      },
+      "skill_groups": {
+        "Firearms": 2
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Heavy Weapon": 2,
+        "Throwing": 2,
+        "Running": 1,
+        "Swimming": 1,
+        "Con": 1,
+        "Etiquette": 1,
+        "Performance": 3,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1
+      },
+      "skill_specializations": {
+        "Etiquette": "Specialization: Corporate"
+      },
+      "knowledge_skills": [
+        {
+          "name": "Megacorporate Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMercenary Air Force",
+      "category": "TourOfDutyMercenary",
+      "job": "Air Force",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Free Fall": 1,
+        "Survival": 1,
+        "Aeronautic Mech": 1,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1,
+        "Pilot Aircraft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Foreign Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMercenary Army",
+      "category": "TourOfDutyMercenary",
+      "job": "Army",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Heavy Weapon": 1,
+        "Throwing": 1,
+        "Free Fall": 1,
+        "Running": 1,
+        "Survival": 1,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Foreign Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMercenary Engineering Corps",
+      "category": "TourOfDutyMercenary",
+      "job": "Engineering Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Engineering": 1,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Armorer": 2,
+        "Demolitions": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Foreign Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military Vehicles",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMercenary Mage Corps",
+      "category": "TourOfDutyMercenary",
+      "job": "Mage Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Conjuring": 1,
+        "Firearms": 1,
+        "Sorcery": 1
+      },
+      "active_skills": {
+        "First Aid": 1,
+        "Navigation": 1,
+        "Arcana": 1,
+        "Assensing": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Foreign Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "TourOfDutyMercenary Medical Corps",
+      "category": "TourOfDutyMercenary",
+      "job": "Medical Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Biotechnology": 2,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Foreign Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "further_education_vocation_any": [
+          "Nurse",
+          "Medicine"
+        ],
+        "description": "To join the Medical Corps, you must have finished the Nurse or Medicine module from Further Education."
+      }
+    },
+    {
+      "name": "TourOfDutyMercenary Navy",
+      "category": "TourOfDutyMercenary",
+      "job": "Navy",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Perception": 1,
+        "Survival": 1,
+        "Swimming": 1,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Foreign Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMercenary Rigger Corps",
+      "category": "TourOfDutyMercenary",
+      "job": "Rigger Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Electronics": 2,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 2,
+        "Pilot Aircraft": 1,
+        "Pilot Walker": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Foreign Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMercenary Special Forces",
+      "category": "TourOfDutyMercenary",
+      "job": "Special Forces",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Free Fall": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Armorer": 1,
+        "Demolitions": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1,
+        "Pilot Water Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Foreign Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMET2000 Air Force",
+      "category": "TourOfDutyMET2000",
+      "job": "Air Force",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Free Fall": 1,
+        "Survival": 1,
+        "Aeronautic Mech": 1,
+        "Armorer": 2,
+        "Computer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1,
+        "Pilot Aircraft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "European Armies",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMET2000 Army",
+      "category": "TourOfDutyMET2000",
+      "job": "Army",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Heavy Weapon": 1,
+        "Throwing": 2,
+        "Free Fall": 1,
+        "Survival": 1,
+        "Aeronautic Mech": 1,
+        "Armorer": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "European Armies",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMET2000 Engineering Corps",
+      "category": "TourOfDutyMET2000",
+      "job": "Engineering Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Engineering": 1,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Armorer": 2,
+        "Computer": 1,
+        "Demolitions": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "European Armies",
+          "ranks": 4,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military Vehicles",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMET2000 Mage Corps",
+      "category": "TourOfDutyMET2000",
+      "job": "Mage Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Conjuring": 1,
+        "Firearms": 1,
+        "Sorcery": 1
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Arcana": 1,
+        "Assensing": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "European Armies",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "TourOfDutyMET2000 Medical Corps",
+      "category": "TourOfDutyMET2000",
+      "job": "Medical Corps",
+      "cost": 100,
+      "note": "(Requires Nurse or Medicine modules from Further Education)",
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Biotechnology": 2,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Survival": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "European Armies",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "further_education_vocation_any": [
+          "Nurse",
+          "Medicine"
+        ],
+        "description": "To join the Medical Corps, you must have finished the Nurse or Medicine module from Further Education."
+      }
+    },
+    {
+      "name": "TourOfDutyMET2000 Navy",
+      "category": "TourOfDutyMET2000",
+      "job": "Navy",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Survival": 1,
+        "Swimming": 1,
+        "Armorer": 1,
+        "Computer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 2,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "European Armies",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMET2000 Rigger Corps",
+      "category": "TourOfDutyMET2000",
+      "job": "Rigger Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Computer": 1,
+        "Electronic Warfare": 2,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 2,
+        "Pilot Aircraft": 1,
+        "Pilot Walker": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "European Armies",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyMET2000 Special Forces",
+      "category": "TourOfDutyMET2000",
+      "job": "Special Forces",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Free Fall": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Tracking": 1,
+        "Armorer": 1,
+        "Computer": 1,
+        "Demolitions": 1,
+        "Electronic Warfare": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1,
+        "Pilot Water Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "European Armies",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNAN Air Force",
+      "category": "TourOfDutyNAN",
+      "job": "Air Force",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Free Fall": 1,
+        "Survival": 1,
+        "Tracking": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1,
+        "Pilot Aircraft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "NAN Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNAN Army",
+      "category": "TourOfDutyNAN",
+      "job": "Army",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Heavy Weapon": 1,
+        "Throwing": 1,
+        "Unarmed": 1,
+        "Survival": 2,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "NAN Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNAN Engineering Corps",
+      "category": "TourOfDutyNAN",
+      "job": "Engineering Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Engineering": 1,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Armorer": 2,
+        "Demolitions": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "NAN Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNAN Mage Corps",
+      "category": "TourOfDutyNAN",
+      "job": "Mage Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Conjuring": 1,
+        "Firearms": 1,
+        "Sorcery": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Survival": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Assensing": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "NAN Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "TourOfDutyNAN Medical Corps",
+      "category": "TourOfDutyNAN",
+      "job": "Medical Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Biotechnology": 2,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "NAN Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "further_education_vocation_any": [
+          "Nurse",
+          "Medicine"
+        ],
+        "description": "To join the Medical Corps, you must have finished the Nurse or Medicine module from Further Education."
+      }
+    },
+    {
+      "name": "TourOfDutyNAN Navy",
+      "category": "TourOfDutyNAN",
+      "job": "Navy",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Survival": 2,
+        "Swimming": 1,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1,
+        "Pilot Water Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "NAN Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNAN Rigger Corps",
+      "category": "TourOfDutyNAN",
+      "job": "Rigger Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Archery": 1,
+        "Blades": 1,
+        "Unarmed": 1,
+        "Survival": 1,
+        "Electronic Warfare": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1,
+        "Pilot Aircraft": 1,
+        "Pilot Walker": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "NAN Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNAN Special Forces",
+      "category": "TourOfDutyNAN",
+      "job": "Special Forces",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Free Fall": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Armorer": 1,
+        "Demolitions": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1,
+        "Pilot Water Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "NAN Military",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyTírTairngire Air Force",
+      "category": "TourOfDutyTírTairngire",
+      "job": "Air Force",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Free Fall": 1,
+        "Survival": 1,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1,
+        "Pilot Aircraft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Peacekeepers",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyTírTairngire Border Patrol",
+      "category": "TourOfDutyTírTairngire",
+      "job": "Border Patrol",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "STR": 1,
+        "CHA": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Heavy Weapon": 1,
+        "Throwing": 1,
+        "Unarmed": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Swimming": 1,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Peacekeepers",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyTírTairngire Engineering Corps",
+      "category": "TourOfDutyTírTairngire",
+      "job": "Engineering Corps",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "STR": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Engineering": 1,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Armorer": 2,
+        "Demolitions": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Peacekeepers",
+          "ranks": 4,
+          "is_placeholder": false
+        },
+        {
+          "name": "Tir Military Vehicles",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyTírTairngire Ghosts",
+      "category": "TourOfDutyTírTairngire",
+      "job": "Ghosts",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "STR": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Free Fall": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Armorer": 1,
+        "Demolitions": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1,
+        "Pilot Water Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Peacekeepers",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyTírTairngire Mage Corps",
+      "category": "TourOfDutyTírTairngire",
+      "job": "Mage Corps",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "STR": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Conjuring": 1,
+        "Firearms": 1,
+        "Sorcery": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Arcana": 1,
+        "Assensing": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Peacekeepers",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "TourOfDutyTírTairngire Medical Corps",
+      "category": "TourOfDutyTírTairngire",
+      "job": "Medical Corps",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "STR": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Biotechnology": 2,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Peacekeepers",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "further_education_vocation_any": [
+          "Nurse",
+          "Medicine"
+        ],
+        "description": "To join the Medical Corps, you must have finished the Nurse or Medicine module from Further Education."
+      }
+    },
+    {
+      "name": "TourOfDutyTírTairngire Navy",
+      "category": "TourOfDutyTírTairngire",
+      "job": "Navy",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Perception": 1,
+        "Survival": 1,
+        "Swimming": 1,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Peacekeepers",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyTírTairngire Netwatch",
+      "category": "TourOfDutyTírTairngire",
+      "job": "Netwatch",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "STR": 1,
+        "INT": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Cracking": 1,
+        "Electronics": 1,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Perception": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Matrix Threats",
+          "ranks": 6,
+          "is_placeholder": false
+        },
+        {
+          "name": "Peacekeepers",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyTírTairngire Peace Keepers",
+      "category": "TourOfDutyTírTairngire",
+      "job": "Peace Keepers",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Clubs": 1,
+        "Heavy Weapon": 1,
+        "Throwing": 1,
+        "Unarmed": 1,
+        "Free Fall": 1,
+        "Perception": 1,
+        "Survival": 1,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Peacekeepers",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyTírTairngire Rigger Corps",
+      "category": "TourOfDutyTírTairngire",
+      "job": "Rigger Corps",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Electronics": 2,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 2,
+        "Pilot Aircraft": 1,
+        "Pilot Walker": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Peacekeepers",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNorthAmerica Air Force",
+      "category": "TourOfDutyNorthAmerica",
+      "job": "Air Force",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Free Fall": 1,
+        "Survival": 1,
+        "Armorer": 2,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1,
+        "Pilot Aircraft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Military",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNorthAmerica Army",
+      "category": "TourOfDutyNorthAmerica",
+      "job": "Army",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Heavy Weapon": 1,
+        "Throwing": 2,
+        "Unarmed": 1,
+        "Free Fall": 1,
+        "Survival": 1,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Military",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNorthAmerica Engineering Corps",
+      "category": "TourOfDutyNorthAmerica",
+      "job": "Engineering Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Engineering": 1,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Armorer": 2,
+        "Demolitions": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Military",
+          "ranks": 4,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military Vehicles",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNorthAmerica Mage Corps",
+      "category": "TourOfDutyNorthAmerica",
+      "job": "Mage Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Conjuring": 1,
+        "Firearms": 1,
+        "Sorcery": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Perception": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Assensing": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Military",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician",
+          "Mystic Adept",
+          "Aspected Magician"
+        ]
+      }
+    },
+    {
+      "name": "TourOfDutyNorthAmerica Medical Corps",
+      "category": "TourOfDutyNorthAmerica",
+      "job": "Medical Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Biotechnology": 2,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "First Aid": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Medicine",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "further_education_vocation_any": [
+          "Nurse",
+          "Medicine"
+        ],
+        "description": "To join the Medical Corps, you must have finished the Nurse or Medicine module from Further Education."
+      }
+    },
+    {
+      "name": "TourOfDutyNorthAmerica Navy",
+      "category": "TourOfDutyNorthAmerica",
+      "job": "Navy",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Survival": 1,
+        "Swimming": 1,
+        "Armorer": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 2,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Military",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNorthAmerica Rigger Corps",
+      "category": "TourOfDutyNorthAmerica",
+      "job": "Rigger Corps",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Electronics": 2,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "First Aid": 1,
+        "Navigation": 1,
+        "Gunnery": 2,
+        "Pilot Aircraft": 1,
+        "Pilot Walker": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Military",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyNorthAmerica Special Forces",
+      "category": "TourOfDutyNorthAmerica",
+      "job": "Special Forces",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Blades": 1,
+        "Free Fall": 1,
+        "Perception": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Tracking": 1,
+        "Armorer": 1,
+        "Demolitions": 1,
+        "Pilot Ground Craft": 1,
+        "Pilot Water Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Military",
+          "ranks": 4,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyRMAF Auxiliary Forces",
+      "category": "TourOfDutyRMAF",
+      "job": "Auxiliary Forces",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Will to Live 1"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Automatics": 1,
+        "Blades": 1,
+        "Pistols": 1,
+        "Unarmed": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "First Aid": 2,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "TourOfDutyRMAF Royal Gendarmeries/National Police",
+      "category": "TourOfDutyRMAF",
+      "job": "Royal Gendarmeries/National Police",
+      "cost": 100,
+      "attributes": {
+        "REA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 18,
+        "positive": [
+          "Common Sense",
+          "Home Ground (Street Politics)",
+          "Perceptive 1"
+        ],
+        "negative_total": 7,
+        "negative": [
+          "Bad Rep"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Clubs": 2,
+        "Pistols": 1,
+        "Unarmed": 1,
+        "Running": 1,
+        "Tracking": 1,
+        "Intimidation": 2,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Criminal Investigation",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "TourOfDutyRMAF Army",
+      "category": "TourOfDutyRMAF",
+      "job": "Army",
+      "cost": 100,
+      "attributes": {
+        "AGI": 1
+      },
+      "qualities": {
+        "positive_total": 15,
+        "positive": [
+          "Tough as Nails 1",
+          "Restricted Gear"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Automatics": 2,
+        "Blades": 1,
+        "Heavy Weapon": 1,
+        "Pistols": 2,
+        "Throwing": 1,
+        "Unarmed": 1,
+        "Sneaking": 1,
+        "First Aid": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": []
+    },
+    {
+      "name": "True Anarchist",
+      "category": "True Anarchist",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "STR": 1,
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "negative_total": 20,
+        "negative": [
+          "Prejudiced (Corporate Citizens, Radical)",
+          "Prejudiced (Police, Radical)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Clubs": 1,
+        "Pistols": 1,
+        "Unarmed": 1,
+        "Escape Artist": 1,
+        "Survival": 1,
+        "Con": 1,
+        "Intimidation": 1,
+        "Negotiation": 2,
+        "First Aid": 1,
+        "Industrial Mech": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Anarchy",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Farming",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Local Gangs",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Local Policlubs",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Local Sprawl Guerillas",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Local Syndicates",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Politics",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Urban Brawler",
+      "category": "Urban Brawler",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        },
+        "positive_total": 11,
+        "positive": [
+          "Natural Athlete",
+          "Fame (Local)"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 2,
+        "Close Combat": 2
+      },
+      "active_skills": {
+        "Free Fall": 1,
+        "Intimidation": 1,
+        "Performance": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Urban Brawl",
+          "ranks": 3,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Warm Body",
+      "category": "Warm Body",
+      "job": null,
+      "cost": 100,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 15,
+        "positive": [
+          "Blandness",
+          "Location Attunement 2"
+        ],
+        "negative_total": 10,
+        "negative": [
+          "Corporate Pariah 1",
+          "This is Your Last Chance"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Palming": 1,
+        "Perception": 2,
+        "Sneaking": 2,
+        "Running": 1,
+        "Tracking": 1,
+        "Con": 1,
+        "Etiquette": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Local Geography",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Member of the Ancient Order of Hibernians",
+      "category": "Member of the Ancient Order of Hibernians",
+      "job": null,
+      "source": "Shadows in Focus: Butte",
+      "cost": 100,
+      "note": "While not restricted purely to Anglos, it is focused on Anglo rights and protecting Anglos.",
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "National",
+          "karma_value": 5
+        }
+      },
+      "skill_groups": {
+        "Influence": 2
+      },
+      "active_skills": {
+        "Animal Handling": 1,
+        "First Aid": 1,
+        "Perception": 1,
+        "Pilot Ground Craft": 1,
+        "Running": 1,
+        "Unarmed": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Corporate Law",
+          "ranks": 5,
+          "is_placeholder": false,
+          "category": "Professional"
+        },
+        {
+          "name": "Law Enforcement Protocols",
+          "ranks": 5,
+          "is_placeholder": false,
+          "category": "Professional"
+        },
+        {
+          "name": "SDF Tactics",
+          "ranks": 4,
+          "is_placeholder": false,
+          "category": "Professional"
+        }
+      ]
+    },
+    {
+      "name": "Member of the Lakota Mafia",
+      "category": "Member of the Lakota Mafia",
+      "job": null,
+      "source": "Shadows in Focus: Butte",
+      "cost": 100,
+      "attributes": {},
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        },
+        "positive_total": 5,
+        "positive": [
+          "Made Man"
+        ]
+      },
+      "skill_groups": {
+        "Firearms": 3,
+        "Stealth": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Con": 2,
+        "Demolitions": 1,
+        "Escape Artist": 1,
+        "Etiquette": 1,
+        "Forgery": 1,
+        "Hardware": 1,
+        "Intimidation": 2,
+        "Leadership": 1,
+        "Negotiation": 1,
+        "Perception": 2,
+        "Pilot Ground Craft": 1,
+        "Unarmed": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Lakota Mafia",
+          "ranks": 4,
+          "is_placeholder": false,
+          "category": "Street"
+        },
+        {
+          "name": "[City]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "City",
+          "category": "Street"
+        }
+      ]
+    },
+    {
+      "name": "Member of the Lost",
+      "category": "Member of the Lost",
+      "job": null,
+      "source": "Shadows in Focus: Butte",
+      "cost": 100,
+      "note": "Special Requirement: Must be an Elf.",
+      "attributes": {
+        "CHA": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Cracking": 1,
+        "Electronics": 1,
+        "Stealth": 1
+      },
+      "active_skills": {
+        "Blades": 2,
+        "Con": 1,
+        "Demolitions": 1,
+        "Intimidation": 1,
+        "Etiquette": 1,
+        "Perception": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [],
+      "requires": {
+        "metatypes_any": [
+          "Elf"
+        ]
+      }
+    },
+    {
+      "name": "Member of Druid's Wolves",
+      "category": "Member of Druid's Wolves",
+      "job": null,
+      "source": "Shadows in Focus: Butte",
+      "cost": 100,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "positive_total": 9,
+        "positive": [
+          "Toughness"
+        ]
+      },
+      "skill_groups": {
+        "Firearms": 2,
+        "Stealth": 1
+      },
+      "active_skills": {
+        "Demolitions": 1,
+        "Heavy Weapon": 1,
+        "Throwing": 1,
+        "Perception": 1,
+        "Pilot Ground Craft": 2,
+        "Running": 1,
+        "Survival": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "SDF Tactics",
+          "ranks": 1,
+          "is_placeholder": false,
+          "category": "Professional"
+        }
+      ]
+    }
+  ]
+}

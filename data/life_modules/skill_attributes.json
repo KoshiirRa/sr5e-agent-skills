@@ -1,0 +1,245 @@
+{
+  "source": "data/skills.xml (aligned verbatim to life_modules active skill keys)",
+  "active_skill_attributes": {
+    "Aeronautic Mech": "LOG",
+    "Animal Handling": "CHA",
+    "Arcana": "LOG",
+    "Archery": "AGI",
+    "Armorer": "LOG",
+    "Artisan": "INT",
+    "Assensing": "INT",
+    "Astral Combat": "WIL",
+    "Automatics": "AGI",
+    "Automotive Mech": "LOG",
+    "Banishing": "MAG/RES",
+    "Biotechnology": "LOG",
+    "Blades": "AGI",
+    "Chemistry": "LOG",
+    "Clubs": "AGI",
+    "Compiling": "MAG/RES",
+    "Computer": "LOG",
+    "Con": "CHA",
+    "Counterspelling": "MAG/RES",
+    "Cybercombat": "LOG",
+    "Cybertechnology": "LOG",
+    "Decompiling": "MAG/RES",
+    "Demolitions": "LOG",
+    "Disguise": "INT",
+    "Diving": "BOD",
+    "Electronic Warfare": "LOG",
+    "Escape Artist": "AGI",
+    "Etiquette": "CHA",
+    "Exotic Weapon": "AGI",
+    "First Aid": "LOG",
+    "Flight": "AGI",
+    "Forgery": "LOG",
+    "Free Fall": "BOD",
+    "Gunnery": "AGI",
+    "Gymnastics": "AGI",
+    "Hacking": "LOG",
+    "Hardware": "LOG",
+    "Heavy Weapon": "AGI",
+    "Heavy Weapons": "AGI",
+    "Impersonation": "CHA",
+    "Industrial Mech": "LOG",
+    "Instruction": "CHA",
+    "Intimidation": "CHA",
+    "Leadership": "CHA",
+    "Locksmith": "AGI",
+    "Longarms": "AGI",
+    "Medicine": "LOG",
+    "Nautical Mech": "LOG",
+    "Navigation": "INT",
+    "Negotiation": "CHA",
+    "Palming": "AGI",
+    "Perception": "INT",
+    "Performance": "CHA",
+    "Pilot Aircraft": "REA",
+    "Pilot Ground Craft": "REA",
+    "Pilot Walker": "REA",
+    "Pilot Water Craft": "REA",
+    "Pilot Watercraft": "REA",
+    "Pistols": "AGI",
+    "Registering": "MAG/RES",
+    "Ritual Spellcasting": "MAG/RES",
+    "Running": "STR",
+    "Sneaking": "AGI",
+    "Software": "LOG",
+    "Spellcasting": "MAG/RES",
+    "Survival": "WIL",
+    "Swimming": "STR",
+    "Throwing": "AGI",
+    "Throwing Weapons": "AGI",
+    "Tracking": "INT",
+    "Unarmed": "AGI",
+    "Unarmed Combat": "AGI"
+  },
+  "focus_presets": {
+    "street_samurai": {
+      "label": "Street Samurai / Combat",
+      "core_attributes": [
+        "AGI",
+        "REA",
+        "BOD",
+        "INT"
+      ],
+      "core_skills": [
+        "Automatics",
+        "Pistols",
+        "Longarms",
+        "Blades",
+        "Unarmed",
+        "Sneaking",
+        "Perception"
+      ]
+    },
+    "face": {
+      "label": "Face / Social",
+      "core_attributes": [
+        "CHA",
+        "INT",
+        "WIL"
+      ],
+      "core_skills": [
+        "Con",
+        "Etiquette",
+        "Negotiation",
+        "Leadership",
+        "Impersonation",
+        "Perception"
+      ]
+    },
+    "decker": {
+      "label": "Decker / Matrix",
+      "core_attributes": [
+        "LOG",
+        "INT",
+        "WIL"
+      ],
+      "core_skills": [
+        "Hacking",
+        "Computer",
+        "Electronic Warfare",
+        "Cybercombat",
+        "Software",
+        "Hardware"
+      ]
+    },
+    "technomancer": {
+      "label": "Technomancer",
+      "core_attributes": [
+        "MAG/RES",
+        "LOG",
+        "INT",
+        "WIL",
+        "CHA"
+      ],
+      "core_skills": [
+        "Compiling",
+        "Registering",
+        "Software",
+        "Hacking",
+        "Computer",
+        "Electronic Warfare"
+      ]
+    },
+    "rigger": {
+      "label": "Rigger / Wheelman",
+      "core_attributes": [
+        "REA",
+        "INT",
+        "LOG"
+      ],
+      "core_skills": [
+        "Pilot Ground Craft",
+        "Pilot Aircraft",
+        "Gunnery",
+        "Electronic Warfare",
+        "Sneaking",
+        "Perception"
+      ]
+    },
+    "mage": {
+      "label": "Magician / Spellcaster",
+      "core_attributes": [
+        "MAG/RES",
+        "WIL",
+        "LOG",
+        "CHA",
+        "INT"
+      ],
+      "core_skills": [
+        "Spellcasting",
+        "Summoning",
+        "Counterspelling",
+        "Assensing",
+        "Binding",
+        "Perception"
+      ]
+    },
+    "adept": {
+      "label": "Physical / Social Adept",
+      "core_attributes": [
+        "MAG/RES",
+        "AGI",
+        "REA",
+        "INT"
+      ],
+      "core_skills": [
+        "Unarmed",
+        "Blades",
+        "Pistols",
+        "Sneaking",
+        "Gymnastics",
+        "Perception"
+      ]
+    },
+    "infiltrator": {
+      "label": "Infiltrator / B&E",
+      "core_attributes": [
+        "AGI",
+        "INT",
+        "LOG"
+      ],
+      "core_skills": [
+        "Sneaking",
+        "Locksmith",
+        "Palming",
+        "Gymnastics",
+        "Perception",
+        "Disguise"
+      ]
+    },
+    "medic": {
+      "label": "Street Doc / Medic",
+      "core_attributes": [
+        "LOG",
+        "INT",
+        "AGI"
+      ],
+      "core_skills": [
+        "First Aid",
+        "Medicine",
+        "Cybertechnology",
+        "Biotechnology",
+        "Perception"
+      ]
+    },
+    "investigator": {
+      "label": "Private Investigator / Detective",
+      "core_attributes": [
+        "INT",
+        "LOG",
+        "CHA"
+      ],
+      "core_skills": [
+        "Perception",
+        "Tracking",
+        "Computer",
+        "Con",
+        "Etiquette",
+        "Sneaking"
+      ]
+    }
+  }
+}

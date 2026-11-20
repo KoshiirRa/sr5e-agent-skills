@@ -1,0 +1,195 @@
+{
+  "system": "Shadowrun 5th Edition — Life Modules Character Creation",
+  "starting_karma": 750,
+  "karma_to_nuyen": {
+    "nuyen_per_karma": 2000,
+    "max_karma": 200,
+    "max_nuyen": 400000
+  },
+  "attributes": {
+    "natural_max_formula": "metatype_base + 5",
+    "special_max": {
+      "MAG": 6,
+      "RES": 6
+    },
+    "post_module_raise_cost_per_rank": "new_rating * 5"
+  },
+  "skills": {
+    "active_skill_cap": 7,
+    "knowledge_skill_cap": 9,
+    "free_knowledge_points_formula": "(INT + LOG) * 2",
+    "post_module_active_cost_per_rank": "new_rating * 2",
+    "post_module_knowledge_cost_per_rank": "new_rating * 1",
+    "specialization_cost": 7,
+    "skill_group_expansion": "Each Skill Group rank adds +1 to every member Active Skill defined in skill_groups.json (SR5 Core; Biotechnology includes Biotechnology, Cybertechnology, First Aid, and Medicine).",
+    "skill_cap_rollover_rule": "Active skills that go above the chargen cap (7) from Life Modules roll over to other skills in the same Skill Group. If the skill is not in a Skill Group (or all skills in its group are at cap), the rollover instead goes to another active skill with the same linked attribute.",
+    "placeholder_knowledge_skills": "Knowledge skills in [brackets] (is_placeholder=true) are placeholders; during character creation, the player chooses a specific knowledge skill or language matching that description."
+  },
+  "contacts": {
+    "free_contact_karma_formula": "CHA * 3",
+    "chargen_max_single_contact_points": 7,
+    "chargen_max_connection": 6,
+    "chargen_max_loyalty": 6,
+    "friends_in_high_places_max_connection": 12,
+    "friends_in_high_places_pool_formula": "CHA * 4",
+    "quality_effects": {
+      "Friends in High Places": {
+        "extra_pool": {
+          "id": "high_places",
+          "label": "Friends in High Places (Connection 8-12)",
+          "formula": "CHA * 4",
+          "min_connection": 8,
+          "max_connection": 12,
+          "no_karma_overflow": true
+        },
+        "note": "Grants an extra CHA * 4 Contact Karma pool dedicated to Contacts with Connection 8-12 (cannot spend extra Karma on them, and unspent points are lost)."
+      },
+      "Networker": {
+        "cost_delta_per_contact": -1,
+        "min_cost_per_contact": 1,
+        "note": "Reduces the cost of each Contact purchased by 1 point/Karma (minimum 1)."
+      },
+      "Massive Network": {
+        "cost_delta_per_contact": -2,
+        "min_cost_per_contact": 2,
+        "note": "Reduces the cost of each Contact purchased by 2 points/Karma (minimum 2)."
+      },
+      "Made Man": {
+        "granted_contact": {
+          "name": "Syndicate Group Contact (Made Man)",
+          "archetype": "Crime Syndicate",
+          "connection": 4,
+          "loyalty": 3,
+          "forced_loyalty": 3,
+          "is_group": true,
+          "free": true
+        },
+        "note": "Grants a free Crime Syndicate Group Contact at Loyalty 3 (+10% syndicate fence price, -10% syndicate gear discount)."
+      },
+      "Prime Datahaven Membership": {
+        "granted_contact": {
+          "name": "Prime Datahaven Group Contact",
+          "archetype": "Datahaven",
+          "connection": 5,
+          "loyalty": 1,
+          "forced_loyalty": 3,
+          "is_group": true,
+          "free": true
+        },
+        "note": "Grants a free Datahaven Group Contact (Connection 5, effective Loyalty 3 for datahaven use)."
+      },
+      "Black Market Pipeline": {
+        "note": "Designate one Contact for a chosen gear category: +2 dice to Availability tests, -10% cost, and +1 effective Connection and +1 effective Loyalty when sourcing those goods."
+      },
+      "Sensei": {
+        "note": "Requires a designated Contact whose Connection >= your instructed skill rating; reduces active skill/group training time and Karma cost by 1 (min 1)."
+      },
+      "Home Ground (You Know a Guy)": {
+        "note": "Home Ground (You Know a Guy) (SR5 p. 75): In your chosen Home Ground neighborhood, local NPCs have a Friendly attitude toward you by default (unless given reason not to), and you gain +2 Street Cred for any Negotiation test with someone from that neighborhood."
+      },
+      "Privileged Family Name": {
+        "note": "Family name recognition acts as a leverage/reputation modifier (+1 Social Limit with high society/corps, -2 Intimidation defense from authorities)."
+      },
+      "Trustworthy": {
+        "note": "+2 Social Limit when convincing others of honesty/trustworthiness and +1 Influence skill group."
+      },
+      "Solid Rep": {
+        "note": "+1 Street Cred within a chosen community/group, improving initial disposition with contacts in that circle."
+      },
+      "Bad Rep": {
+        "note": "+3 Notoriety; contacts and strangers aware of your reputation suffer negative social disposition."
+      },
+      "Candle in the Darkness": {
+        "karma": 5,
+        "requires_negative_quality_substring": "Code of Honor",
+        "global_loyalty_modifier_when_upheld": 2,
+        "global_loyalty_modifier_when_broken": -1,
+        "note": "Requires a Code of Honor negative quality. While upholding your Code of Honor, all Contacts are treated as having Loyalty +2 higher than their actual rating; if broken, all Contacts are treated as having Loyalty -1 lower until corrected."
+      },
+      "Ex-Con": {
+        "karma": -15,
+        "min_loyalty_by_archetype": {
+          "corporate": 4,
+          "corp": 4,
+          "law enforcement": 5,
+          "police": 5,
+          "lone star": 5,
+          "knight errant": 5,
+          "detective": 5,
+          "cop": 5
+        },
+        "note": "Corporate contacts will only associate with you if they have Loyalty 4+; Law Enforcement contacts only stick by you if they have Loyalty 5 or 6."
+      }
+    }
+  },
+  "awakened_and_emerged_costs": {
+    "Aspected Magician": 15,
+    "Technomancer": 15,
+    "Adept": 20,
+    "Magician": 30,
+    "Mystic Adept": 35,
+    "forbidden_arcana_aspected_variants": {
+      "Aware": 15,
+      "Apprentice": 15,
+      "Enchanter": 15,
+      "Explorer": 15
+    }
+  },
+  "qualities": {
+    "positive_karma_limit": 25,
+    "positive_exempt_from_limit": [
+      "Positive qualities gained from Life Modules",
+      "Positive qualities gained from Traditions",
+      "Mastery qualities (subtype of positive qualities primarily from Forbidden Arcana and the Neon-Anarchist sourcebook playtest)"
+    ],
+    "negative_karma_limit": 25,
+    "negative_counts_against_limit": [
+      "Negative qualities gained from Life Modules",
+      "Negative qualities purchased manually outside modules"
+    ],
+    "negative_exempt_from_limit": [
+      "Negative qualities gained from Traditions"
+    ],
+    "negative_overflow_rule": "It is legal to exceed 25 Karma of negative qualities via Life Modules alone. If module negative qualities total >= 25 Karma, the character cannot select any additional negative qualities after choosing modules (remaining manual negative quality allowance = max(0, 25 - module_negative_karma)).",
+    "duplicate_quality_rule": "If you receive the same quality twice across modules and it cannot advance to a higher tier, select another quality of the same Karma cost.",
+    "negative_quality_buyoff": "You may buy off negative qualities obtained from Life Modules using extra Karma.",
+    "sinner_stacking": "SINner qualities from modules do not stack; only the highest-severity SINner applies (National 5 < Criminal 10 < Corporate Limited 15 < Corporate 25)."
+  },
+  "age_progression": {
+    "nationality_and_formative_years": {
+      "target_age": 10,
+      "description": "Nationality + Formative Years cover up to 10 years old."
+    },
+    "teen_years": {
+      "target_age": 17,
+      "description": "Teen Years age the character to 17 years old."
+    },
+    "further_education_years_added": {
+      "CommunityCollege": 2,
+      "TradeTechnicalSchool": 2,
+      "Trade School Shop": 2,
+      "State College": 4,
+      "StateUniversity": 4,
+      "IvyLeague": 4,
+      "MilitaryAcademy": 4,
+      "Corp College Student": 2,
+      "StudentAthlete": 2,
+      "CraftApprenticeship": 4,
+      "ReligiousStudy": 4
+    },
+    "real_life_years_added_per_module": 4
+  },
+  "stage_selection_rules": {
+    "Metatypes": "Single choice (max 1).",
+    "Nationalities": "Single choice (max 1).",
+    "Formative Years": "Single choice (max 1).",
+    "Teen Years": "Single choice (max 1).",
+    "Further Education": "Single choice (max 1), with two exceptions: (1) You may take a Community College or Trade School module and then also take a State University or Ivy League module; (2) One Student Athlete module may be added to any selection or selections of Further Education modules.",
+    "Real Life": "Unlimited — players may take as many Real Life modules as they can afford."
+  },
+  "tour_of_duty_rank": {
+    "nco_rank_karma": 5,
+    "officer_rank_karma": 20,
+    "description": "When starting a Tour of Duty module: if you have the Rank quality at the 5 Karma level, you are an NCO; if you have the Rank quality at the 20 Karma level, you are an Officer."
+  }
+}

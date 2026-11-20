@@ -1,0 +1,1475 @@
+{
+  "stage": "Teen Years",
+  "source": {
+    "spreadsheet_id": "13UgaTbc9v4UhHchyVwfzsuSbW3JrNFN-SxtgSoG3-44",
+    "tab": "Teen Years"
+  },
+  "selection_rules": {
+    "mode": "single",
+    "max_selections": 1,
+    "description": "Players are limited to a single Teen Years module."
+  },
+  "placeholder_convention": "Knowledge skills with is_placeholder=true (enclosed in [brackets]) are placeholders; during character creation, the player chooses a specific knowledge skill or language matching that description.",
+  "count": 36,
+  "modules": [
+    {
+      "name": "Anarcho-Teen",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1
+      },
+      "qualities": {
+        "negative_total": 21,
+        "negative": [
+          "Prejudiced (Police)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Clubs": 1,
+        "Unarmed": 2,
+        "Gymnastics": 1,
+        "Survival": 1,
+        "Negotiation": 1,
+        "First Aid": 1,
+        "Industrial Mech": 1,
+        "Pilot Ground Craft": 1
+      },
+      "skill_specializations": {
+        "Survival": "Specialization: Urban"
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Anarchy",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Farming",
+          "ranks": 1,
+          "is_placeholder": false,
+          "note": "Specialization: Urban Agriculture"
+        },
+        {
+          "name": "Politics",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "ATH133T",
+      "cost": 50,
+      "attributes": {
+        "STR": 1,
+        "MAG/RES": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Will to Live"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 1
+      },
+      "active_skills": {
+        "Unarmed": 1,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Sports",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Technomancers",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Boat Brat",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 5,
+        "positive": [
+          "Born Rich"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Diving": 2,
+        "Swimming": 2,
+        "Nautical Mech": 2,
+        "Navigation": 3,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Specific Nautical Location]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Specific Nautical Location"
+        }
+      ]
+    },
+    {
+      "name": "Booster",
+      "cost": 50,
+      "attributes": {
+        "REA": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 4,
+        "positive": [
+          "Stunt Driver"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Hacking": 1,
+        "Locksmith": 1,
+        "Pilot Ground Craft": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Chop Shops",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Vehicles",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Corporate Education",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Electronics": 1
+      },
+      "active_skills": {
+        "Gymnastics": 1,
+        "Chemistry": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Corporation]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Corporation"
+        },
+        {
+          "name": "[Academic 1]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        },
+        {
+          "name": "[Job]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Job"
+        }
+      ]
+    },
+    {
+      "name": "Corp Teen",
+      "cost": 50,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        },
+        "positive_total": 6,
+        "positive": [
+          "Daredevil"
+        ],
+        "negative_total": 3,
+        "negative": [
+          "Record on File"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Sneaking": 1,
+        "Running": 1,
+        "Con": 1,
+        "Intimidation": 1,
+        "Performance": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic 1]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        }
+      ]
+    },
+    {
+      "name": "Destined For Greatness",
+      "cost": 50,
+      "attributes": {
+        "LOG": 1,
+        "MAG/RES": 1
+      },
+      "qualities": {
+        "positive_total": 4,
+        "positive": [
+          "Focused Concentration"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Leadership": 1,
+        "Negotiation": 1,
+        "Software": 2,
+        "Registering": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "Business",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Corp Culture",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Technomancer"
+        ]
+      }
+    },
+    {
+      "name": "Factory Child Worker",
+      "cost": 50,
+      "note": "15,000 nuyen in cyberlimbs",
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "REA": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Engineering": 1
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Armorer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Industrial Facilities",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Machinist",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Farm Living",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Animal Empathy"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Longarms": 1,
+        "Pistols": 1,
+        "Industrial Mech": 2,
+        "Pilot Ground Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Interest]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Interest"
+        },
+        {
+          "name": "Farming",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Gang Warfare",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "REA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Criminal",
+          "karma_value": 10
+        },
+        "positive_total": 10,
+        "positive": [
+          "Black Market Pipeline"
+        ],
+        "negative_total": 15,
+        "negative": [
+          "Paranoia",
+          "Uneducated"
+        ]
+      },
+      "skill_groups": {
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 2,
+        "Perception": 1,
+        "Running": 1,
+        "Sneaking": 1,
+        "Survival": 1,
+        "Leadership": 1,
+        "Negotiation": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        }
+      ]
+    },
+    {
+      "name": "Hack-A-Thon Medalist",
+      "cost": 50,
+      "attributes": {
+        "AGI": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Quick Healer"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 1,
+        "Sneaking": 1,
+        "First Aid": 1,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic 1]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "[Matrix-related]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix-related"
+        }
+      ]
+    },
+    {
+      "name": "Hacker Club",
+      "cost": 50,
+      "attributes": {
+        "INT": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Data Anomaly"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Computer": 2,
+        "Electronic Warfare": 1,
+        "Hacking": 1,
+        "Hardware": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix-related]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix-related"
+        },
+        {
+          "name": "[Technical]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Technical"
+        }
+      ]
+    },
+    {
+      "name": "High School",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Athletics": 1
+      },
+      "active_skills": {
+        "Chemistry": 1,
+        "Computer": 2,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "[Academic 1]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        }
+      ]
+    },
+    {
+      "name": "Home Tutored",
+      "cost": 50,
+      "attributes": {
+        "LOG": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "negative_total": 8,
+        "negative": [
+          "Social Stress"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Chemistry": 1,
+        "Computer": 3,
+        "Software": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Academic 1]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        }
+      ]
+    },
+    {
+      "name": "Isolated Rural Upbringing",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "negative_total": 5,
+        "negative": [
+          "Incompetent (Electronics)"
+        ]
+      },
+      "skill_groups": {
+        "Outdoors": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Longarms": 1,
+        "Gymnastics": 1,
+        "Perception": 2,
+        "Sneaking": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Critters",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Jacked Out",
+      "cost": 50,
+      "attributes": {
+        "WIL": 1,
+        "MAG/RES": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Profiler"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Perception": 2,
+        "Software": 1,
+        "Registering": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Interest]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Interest"
+        },
+        {
+          "name": "[Matrix-related]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix-related"
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Technomancer"
+        ]
+      }
+    },
+    {
+      "name": "Life on the Coast",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Blades": 1,
+        "Swimming": 2,
+        "Nautical Mech": 2,
+        "Pilot Water Craft": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Interest]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Interest"
+        },
+        {
+          "name": "Fishing",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Life by the Toxic Sea",
+      "cost": 50,
+      "attributes": {
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "negative_total": 15,
+        "negative": [
+          "Blighted (24 Months)"
+        ]
+      },
+      "skill_groups": {
+        "Close Combat": 1,
+        "Engineering": 1
+      },
+      "active_skills": {
+        "Pistols": 1,
+        "Perception": 1,
+        "Survival": 1,
+        "First Aid": 1,
+        "Hardware": 1,
+        "Nautical Mech": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Ecological Groups",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Shipping Corporations",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Smuggling Routes",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Toxic Critters",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Toxic Spirits",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Magical Education (Magician)",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Arcana": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Academic 1]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        },
+        {
+          "name": "[Academic 3]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 3"
+        },
+        {
+          "name": "Magical Theory",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Magician"
+        ]
+      },
+      "post_requires": {
+        "real_life_categories_any": [
+          "Corporate"
+        ],
+        "description": "Must pick either Further Education module(s) and then a Corporate Real Life module, or go straight to a Corporate Real Life module if skipping Further Education."
+      }
+    },
+    {
+      "name": "Magical Education (Adept)",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Arcana": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Academic 1]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        },
+        {
+          "name": "[Academic 3]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 3"
+        },
+        {
+          "name": "Magical Theory",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Adept"
+        ]
+      },
+      "post_requires": {
+        "real_life_categories_any": [
+          "Corporate"
+        ],
+        "description": "Must pick either Further Education module(s) and then a Corporate Real Life module, or go straight to a Corporate Real Life module if skipping Further Education."
+      }
+    },
+    {
+      "name": "Magical Education (Aspected Magician)",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Arcana": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Academic 1]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        },
+        {
+          "name": "[Academic 3]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 3"
+        },
+        {
+          "name": "Magical Theory",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Aspected Magician"
+        ]
+      },
+      "post_requires": {
+        "real_life_categories_any": [
+          "Corporate"
+        ],
+        "description": "Must pick either Further Education module(s) and then a Corporate Real Life module, or go straight to a Corporate Real Life module if skipping Further Education."
+      }
+    },
+    {
+      "name": "Magical Education (Mystic Adept)",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "sinner": {
+          "type": "Corporate Limited",
+          "karma_value": 15
+        }
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Arcana": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Academic 1]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 4,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        },
+        {
+          "name": "[Academic 3]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 3"
+        },
+        {
+          "name": "Magical Theory",
+          "ranks": 5,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Mystic Adept"
+        ]
+      },
+      "post_requires": {
+        "real_life_categories_any": [
+          "Corporate"
+        ],
+        "description": "Must pick either Further Education module(s) and then a Corporate Real Life module, or go straight to a Corporate Real Life module if skipping Further Education."
+      }
+    },
+    {
+      "name": "Matrix Royalty",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Too Pretty to Hit"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Con": 1,
+        "Intimidation": 1,
+        "Computer": 1,
+        "Electronic Warfare": 2
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix-related]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix-related"
+        },
+        {
+          "name": "Psychology",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Military School",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "CHA": 1
+      },
+      "qualities": {
+        "positive_total": 5,
+        "positive": [
+          "Miitary Rank"
+        ],
+        "negative_total": 15,
+        "negative": [
+          "Code of Honor"
+        ]
+      },
+      "skill_groups": {
+        "Electronics": 1,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Blades": 1,
+        "Unarmed": 1,
+        "Running": 1,
+        "Swimming": 1,
+        "Leadership": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic 1]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "Military",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Military History",
+          "ranks": 3,
+          "is_placeholder": false
+        },
+        {
+          "name": "Strategy",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Preparatory School",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 11,
+        "positive": [
+          "First Impression"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Etiquette": 1,
+        "Chemistry": 1,
+        "Computer": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[Academic 1]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        }
+      ],
+      "requires": {
+        "exclude_formative_years": [
+          "Fugitive",
+          "Isolated Rural Upbringing"
+        ],
+        "description": "Cannot be chosen if you have Fugitive or Isolated Rural Upbringing."
+      }
+    },
+    {
+      "name": "Religious School",
+      "cost": 50,
+      "attributes": {
+        "INT": 1,
+        "WIL": 1
+      },
+      "qualities": {},
+      "skill_groups": {
+        "Athletics": 1
+      },
+      "active_skills": {
+        "Con": 2,
+        "Artisan": 1,
+        "Arcana": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Academic 1]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 1"
+        },
+        {
+          "name": "[Academic 2]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Academic 2"
+        },
+        {
+          "name": "[Religion]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Religion"
+        },
+        {
+          "name": "[Religious Language]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Religious Language"
+        },
+        {
+          "name": "Prayers/Meditation",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Shanghaied",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "STR": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Sense of Direction"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Diving": 1,
+        "Swimming": 2,
+        "Nautical Mech": 1,
+        "Navigation": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Geography",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Street Kid",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "negative_total": 7,
+        "negative": [
+          "Bad Rep"
+        ]
+      },
+      "skill_groups": {
+        "Acting": 2,
+        "Stealth": 1
+      },
+      "active_skills": {
+        "Clubs": 1,
+        "Gymnastics": 1,
+        "Perception": 1,
+        "Running": 1,
+        "Etiquette": 1,
+        "Intimidation": 1,
+        "Negotiation": 1,
+        "First Aid": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        }
+      ]
+    },
+    {
+      "name": "Technomancer Boarding School",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "MAG/RES": 1
+      },
+      "qualities": {},
+      "skill_groups": {},
+      "active_skills": {
+        "Electronic Warfare": 1,
+        "Hacking": 1,
+        "Software": 1,
+        "Compiling": 1,
+        "Decompiling": 1,
+        "Registering": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Matrix-related]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix-related"
+        },
+        {
+          "name": "[Technical]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Technical"
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Technomancer"
+        ]
+      }
+    },
+    {
+      "name": "Techno-Rigger, Qu'est Que C'est",
+      "cost": 50,
+      "attributes": {
+        "REA": 1,
+        "MAG/RES": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Dealer Connection"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Pilot Aircraft": 1,
+        "Pilot Ground Craft": 1,
+        "Compiling": 2,
+        "Registering": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[City]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Vehicles",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ],
+      "requires": {
+        "qualities_any": [
+          "Technomancer"
+        ]
+      }
+    },
+    {
+      "name": "Teen Diva",
+      "cost": 50,
+      "attributes": {
+        "AGI": 1,
+        "CHA": 1
+      },
+      "qualities": {
+        "positive_total": 8,
+        "positive": [
+          "Fame (National)"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 1
+      },
+      "active_skills": {
+        "Performance": 2,
+        "Artisan": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Interest]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Interest"
+        },
+        {
+          "name": "Strategy",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Test Subject",
+      "cost": 50,
+      "note": "16,000 nuyen in augmentations",
+      "attributes": {
+        "BOD": 1,
+        "LOG": 1
+      },
+      "qualities": {
+        "positive_total": 5,
+        "positive": [
+          "Biocompatibility"
+        ]
+      },
+      "skill_groups": {
+        "Influence": 1
+      },
+      "active_skills": {
+        "Biotechnology": 1,
+        "Cybertechnology": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Metahuman Biology",
+          "ranks": 1,
+          "is_placeholder": false
+        },
+        {
+          "name": "Transhumanist Philosophy",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "The Easiest Mark",
+      "cost": 50,
+      "attributes": {
+        "CHA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "negative_total": 10,
+        "negative": [
+          "Big Regret",
+          "Wanted"
+        ]
+      },
+      "skill_groups": {
+        "Acting": 2
+      },
+      "active_skills": {
+        "Perception": 1,
+        "Forgery": 3
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Interest]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Interest"
+        },
+        {
+          "name": "[Street]",
+          "ranks": 3,
+          "is_placeholder": true,
+          "placeholder_description": "Street"
+        }
+      ]
+    },
+    {
+      "name": "The Flow",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "positive_total": 3,
+        "positive": [
+          "Common Sense"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Palming": 1,
+        "Chemistry": 1,
+        "Hacking": 2,
+        "Software": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Drug-related]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Drug-related"
+        },
+        {
+          "name": "[Matrix-related]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "Matrix-related"
+        }
+      ]
+    },
+    {
+      "name": "Merc Teen",
+      "cost": 50,
+      "attributes": {
+        "REA": 1,
+        "INT": 1
+      },
+      "qualities": {
+        "negative_total": 8,
+        "negative": [
+          "Antipathy"
+        ]
+      },
+      "skill_groups": {
+        "Athletics": 1,
+        "Close Combat": 1,
+        "Firearms": 1
+      },
+      "active_skills": {
+        "Sneaking": 1,
+        "Con": 1,
+        "Demolitions": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "Geography",
+          "ranks": 2,
+          "is_placeholder": false
+        },
+        {
+          "name": "Merc Corps",
+          "ranks": 2,
+          "is_placeholder": false
+        }
+      ]
+    },
+    {
+      "name": "Wharf Rat",
+      "cost": 50,
+      "attributes": {
+        "BOD": 1,
+        "AGI": 1,
+        "WIL": 1
+      },
+      "qualities": {
+        "negative_total": 10,
+        "negative": [
+          "Loss of Confidence (Close Combat Group)"
+        ]
+      },
+      "skill_groups": {},
+      "active_skills": {
+        "Clubs": 1,
+        "Unarmed": 1,
+        "Survival": 1,
+        "Swimming": 1
+      },
+      "knowledge_skills": [
+        {
+          "name": "[Language]",
+          "ranks": 1,
+          "is_placeholder": true,
+          "placeholder_description": "Language"
+        },
+        {
+          "name": "[City]",
+          "ranks": 2,
+          "is_placeholder": true,
+          "placeholder_description": "City"
+        },
+        {
+          "name": "Ship Identification",
+          "ranks": 1,
+          "is_placeholder": false
+        }
+      ]
+    }
+  ]
+}
