@@ -61,6 +61,7 @@ def parse_traditions(xml_file=DATA_PATH):
                     if cat in tag_name and s_child.text:
                         spirits[cat.capitalize()] = s_child.text.strip()
                         
+        spiritform = get_text_safe(t, "spiritform", "Materialization")
         bonuses = {
             "disabled_skills": [],
             "disabled_skillgroups": [],
@@ -89,9 +90,17 @@ def parse_traditions(xml_file=DATA_PATH):
                 elif btag == "spellcategory" and btext:
                     bonuses["bonus_categories"].append(btext)
                 elif btag == "addquality":
-                    qname = b.attrib.get("select") or btext
+                    sel = b.attrib.get("select")
+                    qname = f"{btext} ({sel})" if (btext and sel) else (sel or btext)
                     if qname:
                         bonuses["added_qualities"].append(qname)
+                elif btag == "addqualities":
+                    for aq in b.findall("addquality"):
+                        aq_text = aq.text.strip() if aq.text else ""
+                        sel = aq.attrib.get("select")
+                        qname = f"{aq_text} ({sel})" if (aq_text and sel) else (sel or aq_text)
+                        if qname:
+                            bonuses["added_qualities"].append(qname)
                 elif btag == "drainresist" and btext:
                     bonuses["drain_mod"] = btext
                 elif btag in ["specificpower", "specificskill"]:
@@ -103,6 +112,7 @@ def parse_traditions(xml_file=DATA_PATH):
             "source": source,
             "source_full": BOOK_MAP.get(source, source),
             "page": page,
+            "spiritform": spiritform,
             "spirits": spirits,
             "bonuses": bonuses
         })
@@ -112,7 +122,7 @@ def parse_traditions(xml_file=DATA_PATH):
 def display_tradition(t):
     print(f"\n==================================================")
     print(f"Tradition: {t['name']}  [{t['source_full']} p.{t['page']}]")
-    print(f"Drain Pool: {t['drain']}")
+    print(f"Drain Pool: {t['drain']}  |  Spirit Form: {t['spiritform']}")
     print(f"--------------------------------------------------")
     print("Spirit Alignments:")
     for cat in ["Combat", "Detection", "Health", "Illusion", "Manipulation"]:
